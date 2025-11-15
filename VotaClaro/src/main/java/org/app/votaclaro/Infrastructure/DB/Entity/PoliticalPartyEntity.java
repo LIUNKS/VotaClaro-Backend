@@ -21,9 +21,5 @@ public class PoliticalPartyEntity {
     private String name;
     private String urlLogo;
     private String ideology;
-    @OneToOne(
-            cascade = {CascadeType.REFRESH, CascadeType.MERGE}
-    )
-    @JoinColumn(name = "policy_plan_id")
-    private PolicyPlanEntity policyPlanEntity;
+
 }

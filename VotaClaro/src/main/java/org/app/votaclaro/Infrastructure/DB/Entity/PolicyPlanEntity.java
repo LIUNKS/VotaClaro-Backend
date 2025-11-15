@@ -19,4 +19,12 @@ public class PolicyPlanEntity {
     @Column(name = "policy_plan_id")
     private UUID id;
     private String urlPdf;
+    @OneToOne(
+            cascade = {CascadeType.REFRESH, CascadeType.MERGE}
+    )
+    @JoinColumn(
+            name = "political_party_id",
+            referencedColumnName = "political_party_id"
+    )
+    private PoliticalPartyEntity politicalParty;
 }
