@@ -6,6 +6,5 @@ public record PoliticalPartyResponse(
         UUID id,
         String name,
         String urlLogo,
-        String ideology,
-        PolicyPlanResponse policyPlan
+        String ideology
 ) {}

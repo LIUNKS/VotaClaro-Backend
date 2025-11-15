@@ -35,14 +35,6 @@ public class CandidateEntity {
     )
     private PoliticalPartyEntity politicalParty;
 
-    @OneToOne(
-            cascade = {CascadeType.REFRESH, CascadeType.MERGE}
-    )
-    @JoinColumn(
-            name = "nominee_id",
-            referencedColumnName = "nominee_id"
-    )
-    private NomineeEntity nominee;
 
     @ManyToOne(
             cascade = {CascadeType.REFRESH, CascadeType.MERGE}

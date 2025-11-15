@@ -1,3 +1,7 @@
 package org.app.votaclaro.Http.Request;
 
-public record PolicyPlanRequest(String urlPdf) {}
+import java.util.UUID;
+
+public record PolicyPlanRequest(
+        UUID political_party_id
+) {}

@@ -11,17 +11,15 @@ public class Candidate {
     private LocalDate birthDate;
     private String urlCv;
     private PoliticalParty politicalParty;
-    private Nominee nominee;
     private PresidentialForm presidentialForm;
 
-    public Candidate(UUID id, String fullName, String dni, LocalDate birthDate, String urlCv, PoliticalParty politicalParty, Nominee nominee, PresidentialForm presidentialForm) {
+    public Candidate(UUID id, String fullName, String dni, LocalDate birthDate, String urlCv, PoliticalParty politicalParty, PresidentialForm presidentialForm) {
         this.id = id;
         this.fullName = fullName;
         this.dni = dni;
         this.birthDate = birthDate;
         this.urlCv = urlCv;
         this.politicalParty = politicalParty;
-        this.nominee = nominee;
         this.presidentialForm = presidentialForm;
     }
 
@@ -71,14 +69,6 @@ public class Candidate {
 
     public void setPoliticalParty(PoliticalParty politicalParty) {
         this.politicalParty = politicalParty;
-    }
-
-    public Nominee getNominee() {
-        return nominee;
-    }
-
-    public void setNominee(Nominee nominee) {
-        this.nominee = nominee;
     }
 
     public PresidentialForm getPresidentialForm() {

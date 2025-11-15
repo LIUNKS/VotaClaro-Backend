@@ -11,13 +11,15 @@ public class Nominee {
     private NomineeStatus status;
     private Byte ViceNum;
     private PoliticalParty politicalParty;
+    private Candidate candidate;
 
-    public Nominee(UUID id, PositionType position, NomineeStatus status, Byte viceNum, PoliticalParty politicalParty) {
+    public Nominee(UUID id, PositionType position, NomineeStatus status, Byte viceNum, PoliticalParty politicalParty, Candidate candidate) {
         this.id = id;
         this.position = position;
         this.status = status;
-        ViceNum = viceNum;
+        this.ViceNum = viceNum;
         this.politicalParty = politicalParty;
+        this.candidate = candidate;
     }
 
     public UUID getId() {
@@ -58,5 +60,13 @@ public class Nominee {
 
     public void setPoliticalParty(PoliticalParty politicalParty) {
         this.politicalParty = politicalParty;
+    }
+
+    public Candidate getCandidate() {
+        return candidate;
+    }
+
+    public void setCandidate(Candidate candidate) {
+        this.candidate = candidate;
     }
 }

@@ -36,4 +36,14 @@ public class NomineeEntity {
             referencedColumnName = "political_party_id"
     )
     private PoliticalPartyEntity politicalParty;
+
+    @OneToOne(
+            cascade = {CascadeType.REFRESH, CascadeType.MERGE}
+    )
+    @JoinColumn(
+            name = "candidate_id",
+            referencedColumnName = "candidate_id"
+    )
+    private CandidateEntity nominee;
+
 }
