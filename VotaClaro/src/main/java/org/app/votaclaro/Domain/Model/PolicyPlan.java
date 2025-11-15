@@ -15,6 +15,10 @@ public class PolicyPlan {
         this.id = id;
     }
 
+    public PolicyPlan(PoliticalParty politicalParty) {
+        this.politicalParty = politicalParty;
+    }
+
     public UUID getId() {
         return id;
     }

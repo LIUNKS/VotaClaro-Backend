@@ -5,5 +5,5 @@ import org.app.votaclaro.Http.Response.PolicyPlanResponse;
 import org.springframework.web.multipart.MultipartFile;
 
 public interface CreatePolicyPlanUseCase {
-    PolicyPlanResponse createPolicyPlan(PolicyPlanRequest policyPlanRequest, MultipartFile urlPdf);
+    PolicyPlanResponse createPolicyPlan(PolicyPlanRequest policyPlanRequest, MultipartFile urlPdf) throws Exception;
 }

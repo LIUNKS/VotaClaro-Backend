@@ -14,6 +14,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @Data
 public class PolicyPlanEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "policy_plan_id")
@@ -27,4 +28,10 @@ public class PolicyPlanEntity {
             referencedColumnName = "political_party_id"
     )
     private PoliticalPartyEntity politicalParty;
+
+    public PolicyPlanEntity(String urlPdf, PoliticalPartyEntity politicalParty) {
+        this.urlPdf = urlPdf;
+        this.politicalParty = politicalParty;
+    }
+
 }

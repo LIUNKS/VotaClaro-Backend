@@ -18,6 +18,11 @@ public class PoliticalParty {
         this.urlListMembers = urlListMembers;
     }
 
+    public PoliticalParty(String name, String ideology) {
+        this.name = name;
+        this.ideology = ideology;
+    }
+
     public UUID getId() {
         return id;
     }

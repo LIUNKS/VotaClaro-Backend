@@ -42,7 +42,7 @@ public class CandidateEntity {
     @JoinColumn(
             name = "presidential_form_id",
             referencedColumnName = "presidential_form_id",
-            nullable = false
+            nullable = true
     )
     private PresidentialFormEntity presidentialForm;
 }

@@ -5,5 +5,5 @@ import org.app.votaclaro.Http.Response.PoliticalPartyResponse;
 import org.springframework.web.multipart.MultipartFile;
 
 public interface CreatePoliticalPartyUseCase {
-    PoliticalPartyResponse createPoliticalParty(PoliticalPartyRequest politicalPartyRequest, MultipartFile urlLogo, MultipartFile urlListMembers);
+    PoliticalPartyResponse createPoliticalParty(PoliticalPartyRequest politicalPartyRequest, MultipartFile urlLogo, MultipartFile urlListMembers) throws Exception;
 }
