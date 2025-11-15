@@ -9,7 +9,6 @@ public record CandidateResponse(
         String dni,
         LocalDate birthDate,
         String urlCv,
-        PoliticalPartyResponse politicalParty,
-        NomineeResponse nominee,
-        PresidentialFormResponse presidentialForm
+        UUID politicalPartyId,
+        UUID presidentialFormId
 ) {}

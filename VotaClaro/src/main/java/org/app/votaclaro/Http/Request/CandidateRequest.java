@@ -7,8 +7,6 @@ public record CandidateRequest(
         String fullName,
         String dni,
         LocalDate birthDate,
-        String urlCv,
         UUID politicalPartyId,
-        UUID nomineeId,
         UUID presidentialFormId
 ) {}
