@@ -21,8 +21,12 @@ public class NomineeEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "nominee_id")
     private UUID id;
+
     private PositionType position;
+
     private NomineeStatus status;
+
+    private Byte ViceNum;
 
     @ManyToOne(
             cascade = {CascadeType.REFRESH, CascadeType.MERGE}
