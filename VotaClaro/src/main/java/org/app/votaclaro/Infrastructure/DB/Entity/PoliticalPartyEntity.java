@@ -21,5 +21,5 @@ public class PoliticalPartyEntity {
     private String name;
     private String urlLogo;
     private String ideology;
-
+    private String urlListMembers;
 }

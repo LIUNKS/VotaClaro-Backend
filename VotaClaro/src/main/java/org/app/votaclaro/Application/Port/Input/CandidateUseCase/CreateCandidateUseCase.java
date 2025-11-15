@@ -1,4 +1,4 @@
-package org.app.votaclaro.Application.Port.Input;
+package org.app.votaclaro.Application.Port.Input.CandidateUseCase;
 
 import org.app.votaclaro.Http.Request.CandidateRequest;
 import org.app.votaclaro.Http.Response.CandidateResponse;

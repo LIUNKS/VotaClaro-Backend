@@ -1,14 +1,14 @@
 package org.app.votaclaro.Domain.Model;
 
-import java.time.LocalDate;
+
 import java.util.UUID;
 
 public class Election {
     private UUID id;
-    private LocalDate electionDate;
+    private String electionDate;
     private Nominee nominee;
 
-    public Election(UUID id, LocalDate electionDate, Nominee nominee) {
+    public Election(UUID id, String electionDate, Nominee nominee) {
         this.id = id;
         this.electionDate = electionDate;
         this.nominee = nominee;
@@ -22,11 +22,11 @@ public class Election {
         this.id = id;
     }
 
-    public LocalDate getElectionDate() {
+    public String getElectionDate() {
         return electionDate;
     }
 
-    public void setElectionDate(LocalDate electionDate) {
+    public void setElectionDate(String electionDate) {
         this.electionDate = electionDate;
     }
 

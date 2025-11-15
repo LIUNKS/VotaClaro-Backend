@@ -8,12 +8,14 @@ public class PoliticalParty {
     private String name;
     private String urlLogo;
     private String ideology;
+    private String urlListMembers;
 
-    public PoliticalParty(UUID id, String name, String urlLogo, String ideology) {
+    public PoliticalParty(UUID id, String name, String urlLogo, String ideology, String urlListMembers) {
         this.id = id;
         this.name = name;
         this.urlLogo = urlLogo;
         this.ideology = ideology;
+        this.urlListMembers = urlListMembers;
     }
 
     public UUID getId() {
@@ -48,4 +50,11 @@ public class PoliticalParty {
         this.ideology = ideology;
     }
 
+    public String getUrlListMembers() {
+        return urlListMembers;
+    }
+
+    public void setUrlListMembers(String urlListMembers) {
+        this.urlListMembers = urlListMembers;
+    }
 }

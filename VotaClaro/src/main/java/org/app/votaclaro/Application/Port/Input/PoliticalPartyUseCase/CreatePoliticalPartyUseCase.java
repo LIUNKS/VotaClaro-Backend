@@ -1,4 +1,4 @@
-package org.app.votaclaro.Application.Port.Input;
+package org.app.votaclaro.Application.Port.Input.PoliticalPartyUseCase;
 
 import org.app.votaclaro.Http.Request.PoliticalPartyRequest;
 import org.app.votaclaro.Http.Response.PoliticalPartyResponse;
