@@ -26,12 +26,9 @@ public class JpaPresidentialFromRepositoryAdapter implements PresidentialFormRep
         PoliticalPartyEntity politicalPartyEntity = politicalPartyMapper.politicalPartyToPoliticalPartyEntity(presidentialForm.getPoliticalParty());
         PresidentialFormEntity presidentialFormEntity = new PresidentialFormEntity(null, 0,false,politicalPartyEntity);
         presidentialFormEntity = springDatePresidentialFormRepository.save(presidentialFormEntity);
-
         PoliticalParty politicalParty = politicalPartyMapper.politicalPartyEntityToPoliticalParty(politicalPartyEntity);
-
         PresidentialForm presidentialForm1 = PresidentialFormResponseMapperAux.presidentialFormToPresidentialFormEntity(presidentialFormEntity);
         presidentialForm1.setPoliticalParty(politicalParty);
-
         return presidentialForm1;
     }
 

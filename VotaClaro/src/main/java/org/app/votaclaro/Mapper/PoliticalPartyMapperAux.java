@@ -10,6 +10,10 @@ public class PoliticalPartyMapperAux {
                 null,
                 politicalPartySavePersistence.name(),
                 null,
+                politicalPartySavePersistence.members(),
+                politicalPartySavePersistence.location(),
+                politicalPartySavePersistence.description(),
+                politicalPartySavePersistence.dateFoundation(),
                 politicalPartySavePersistence.ideology(),
                 null
         );
@@ -18,9 +22,13 @@ public class PoliticalPartyMapperAux {
         return new PoliticalParty(
                 politicalPartyEntity.getId(),
                 politicalPartyEntity.getName(),
-                politicalPartyEntity.getUrlLogo(),
                 politicalPartyEntity.getIdeology(),
-                politicalPartyEntity.getUrlListMembers()
+                politicalPartyEntity.getUrlLogo(),
+                politicalPartyEntity.getUrlListMembers(),
+                politicalPartyEntity.getMembers(),
+                politicalPartyEntity.getLocation(),
+                politicalPartyEntity.getDescription(),
+                politicalPartyEntity.getDateFoundation()
         );
     }
 }

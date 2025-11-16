@@ -13,6 +13,8 @@ import org.app.votaclaro.Mapper.PoliticalPartyMapper;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.UUID;
+
 @Repository
 @RequiredArgsConstructor
 @Slf4j
@@ -32,7 +34,14 @@ public class JpaCandidateRepositoryAdapter implements CandidateRepositoryPort {
         System.out.println("isFull de PresidentialFormEntity:"+presidentialFormEntity.getIsFull());
         CandidateEntity candidateEntity = new CandidateEntity(null,candidate.getDni(),ImgPerson,politicalPartyEntity,presidentialFormEntity);
         candidateEntity = springDateCandidateRepository.save(candidateEntity);
-        return CandidateMapperAux.candidateEntityToCandidato(candidateEntity);
+        return CandidateMapperAux.candidateEntityToCandidatoForNull(candidateEntity);
+    }
+
+    @Override
+    public Candidate findById(UUID id) {
+        CandidateEntity candidate = springDateCandidateRepository.findById(id)
+                .orElseThrow(()->new RuntimeException("No se encontro el Candidato con el id: "+id));
+        return CandidateMapperAux.candidateEntityToCandidatoForNull(candidate);
     }
 
 }

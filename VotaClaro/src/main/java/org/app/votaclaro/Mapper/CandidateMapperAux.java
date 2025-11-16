@@ -7,11 +7,11 @@ import org.app.votaclaro.Http.Response.CandidateResponse;
 import org.app.votaclaro.Infrastructure.DB.Entity.CandidateEntity;
 
 public class CandidateMapperAux {
-    public static Candidate candidateEntityToCandidato(CandidateEntity candidateEntity){
+    public static Candidate candidateEntityToCandidatoForNull(CandidateEntity candidateEntity){
         return new Candidate(
                 candidateEntity.getId(),
                 candidateEntity.getDni(),
-                new PoliticalParty(candidateEntity.getPoliticalParty().getId(),null,null,null,null),
+                new PoliticalParty(candidateEntity.getPoliticalParty().getId(),null,null,null,null,null,null,null,null),
                 new PresidentialForm(candidateEntity.getPresidentialForm().getId(),null,null,null),
                 candidateEntity.getUrlImgPerson()
         );

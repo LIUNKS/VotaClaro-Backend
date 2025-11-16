@@ -15,6 +15,7 @@ public interface PoliticalPartyMapper {
     PoliticalPartyEntity politicalPartySavePersistenceToPoliticalPartyEntity(PoliticalPartySavePersistence politicalPartySavePersistence); //No funciona
 
     PoliticalParty politicalPartyToPoliticalPartyRequest(PoliticalPartyRequest politicalPartyRequest);
+
     PoliticalPartyResponse politicalPartyToPoliticalPartyResponse(PoliticalParty politicalParty);
     PoliticalPartyEntity politicalPartyToPoliticalPartyEntity(PoliticalParty politicalParty);
 

@@ -7,5 +7,9 @@ public record PoliticalPartyResponse(
         String name,
         String urlLogo,
         String ideology,
-        String urlListMembers
+        String urlListMembers,
+        String members,
+        String location,
+        String description,
+        String dateFoundation
 ) {}

@@ -10,5 +10,5 @@ public record NomineeRequest(
         NomineeStatus status,
         Byte viceNum,
         UUID politicalPartyId,
-        UUID nomineeId
+        UUID candidate_id
 ) {}

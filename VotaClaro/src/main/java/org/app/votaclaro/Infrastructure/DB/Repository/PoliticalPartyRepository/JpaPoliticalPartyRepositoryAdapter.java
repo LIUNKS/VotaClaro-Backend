@@ -41,6 +41,9 @@ public class JpaPoliticalPartyRepositoryAdapter implements PoliticalPartyReposit
         System.out.println("Datos del PoliticalPartySavePersistence:\n");
         System.out.println(politicalPartySavePersistence.name());
         System.out.println(politicalPartySavePersistence.ideology());
+        System.out.println(politicalPartySavePersistence.description());
+        System.out.println(politicalPartySavePersistence.location());
+        System.out.println(politicalPartySavePersistence.dateFoundation());
 
         PoliticalPartyEntity politicalPartyEntity = PoliticalPartyMapperAux.politicalPartySavePersistenceToPoliticalPartyEntity(politicalPartySavePersistence); //No guarda los datos
 
@@ -52,6 +55,9 @@ public class JpaPoliticalPartyRepositoryAdapter implements PoliticalPartyReposit
         System.out.println(politicalPartyEntity.getIdeology());
         System.out.println(politicalPartyEntity.getUrlLogo());
         System.out.println(politicalPartyEntity.getUrlListMembers());
+        System.out.println(politicalPartyEntity.getDescription());
+        System.out.println(politicalPartyEntity.getLocation());
+        System.out.println(politicalPartyEntity.getDateFoundation());
 
         log.info("Guardando ubicacion de archivos en PoliticalParty: -Logo({}),-ListMembers({})",Logo,ListMembers);
 

@@ -10,6 +10,6 @@ public record NomineeResponse(
         PositionType position,
         NomineeStatus status,
         Byte viceNum,
-        UUID politicalPartyId,
-        UUID nomineeId
+        UUID politicalParty_id,
+        UUID candidate_id
 ) {}

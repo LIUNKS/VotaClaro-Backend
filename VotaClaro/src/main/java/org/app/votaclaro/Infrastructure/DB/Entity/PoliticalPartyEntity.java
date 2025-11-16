@@ -21,6 +21,12 @@ public class PoliticalPartyEntity {
     @Column(unique = true)
     private String name;
     private String urlLogo;
+
+    private String members;
+    private String location;
+    private String description;
+    private String dateFoundation;
+
     private String ideology;
     private String urlListMembers;
 }

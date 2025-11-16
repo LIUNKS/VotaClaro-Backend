@@ -43,6 +43,6 @@ public class NomineeEntity {
             name = "candidate_id",
             referencedColumnName = "candidate_id"
     )
-    private CandidateEntity nominee;
+    private CandidateEntity candidate;
 
 }
