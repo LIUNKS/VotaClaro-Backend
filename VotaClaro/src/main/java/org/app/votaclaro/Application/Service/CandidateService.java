@@ -9,6 +9,7 @@ import org.app.votaclaro.Domain.Model.Candidate;
 import org.app.votaclaro.Domain.Model.PoliticalParty;
 import org.app.votaclaro.Domain.Model.PresidentialForm;
 import org.app.votaclaro.Http.Request.CandidateRequest;
+import org.app.votaclaro.Http.Request.CandidateRequestWithoutForm;
 import org.app.votaclaro.Http.Response.CandidateResponse;
 import org.app.votaclaro.Mapper.CandidateMapperAux;
 import org.springframework.stereotype.Service;
@@ -27,6 +28,14 @@ public class CandidateService implements CreateCandidateUseCase {
         PresidentialForm presidentialForm = presidentialFormRepositoryPort.findById(candidateRequest.presidentialFormId());
         presidentialFormRepositoryPort.findByIdCount(candidateRequest.presidentialFormId());
         Candidate candidate = new Candidate(null,candidateRequest.dni(),politicalParty,presidentialForm,null);
+        candidate = candidateRepositoryPort.save(candidate,urlImgPerson);
+        return CandidateMapperAux.candidateToCandidateResponse(candidate);
+    }
+
+    @Override
+    public CandidateResponse createCandidateWithoutPresidentialForm(CandidateRequestWithoutForm candidateRequestWithoutForm, MultipartFile urlImgPerson) throws Exception {
+        PoliticalParty politicalParty = politicalPartyRepositoryPort.findById(candidateRequestWithoutForm.politicalPartyId());
+        Candidate candidate = new Candidate(null,candidateRequestWithoutForm.dni(),politicalParty,null,null);
         candidate = candidateRepositoryPort.save(candidate,urlImgPerson);
         return CandidateMapperAux.candidateToCandidateResponse(candidate);
     }

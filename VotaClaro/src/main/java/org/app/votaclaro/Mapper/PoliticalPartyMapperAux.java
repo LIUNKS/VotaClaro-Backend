@@ -5,6 +5,12 @@ import org.app.votaclaro.Dto.PoliticalPartySavePersistence;
 import org.app.votaclaro.Infrastructure.DB.Entity.PoliticalPartyEntity;
 
 public class PoliticalPartyMapperAux {
+    public static PoliticalPartyEntity politicalPartySavePersistence;
+
+    public static PoliticalPartyEntity politicalPartyToPoliticalPartyEntity(PoliticalParty politicalParty){
+        return new PoliticalPartyEntity(politicalParty.getId(),null,null,null,null,null,null,null,null);
+    }
+
     public static PoliticalPartyEntity politicalPartySavePersistenceToPoliticalPartyEntity(PoliticalPartySavePersistence politicalPartySavePersistence){
         return new PoliticalPartyEntity(
                 null,

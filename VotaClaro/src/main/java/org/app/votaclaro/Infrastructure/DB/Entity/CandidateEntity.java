@@ -44,4 +44,5 @@ public class CandidateEntity {
             nullable = true
     )
     private PresidentialFormEntity presidentialForm;
+
 }

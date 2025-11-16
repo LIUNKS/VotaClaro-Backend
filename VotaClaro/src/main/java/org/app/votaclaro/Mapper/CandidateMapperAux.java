@@ -19,4 +19,10 @@ public class CandidateMapperAux {
     public static CandidateResponse candidateToCandidateResponse(Candidate candidate){
         return new CandidateResponse(candidate.getId(),candidate.getDni(),candidate.getUrlImgPerson(),candidate.getPoliticalParty().getId(),candidate.getPresidentialForm().getId());
     }
+    public static CandidateResponse candidateToCandidateResponseWithoutForm(Candidate candidate){
+        return new CandidateResponse(candidate.getId(),candidate.getDni(),candidate.getUrlImgPerson(),candidate.getPoliticalParty().getId(),null);
+    }
+    public static CandidateEntity candidateToCandidateEntityId(Candidate candidate){
+        return new CandidateEntity(candidate.getId(),null,null,null,null);
+    }
 }
