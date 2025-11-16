@@ -12,7 +12,10 @@ import org.app.votaclaro.Mapper.PoliticalPartyMapperAux;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 @Repository
 @RequiredArgsConstructor
@@ -66,6 +69,13 @@ public class JpaPoliticalPartyRepositoryAdapter implements PoliticalPartyReposit
         log.info("Guardando PoliticalParty en BD: {}",politicalPartyEntity.getId());
 
         return politicalPartyMapper.politicalPartyEntityToPoliticalParty(politicalPartyEntity);
+    }
+
+    @Override
+    public List<PoliticalParty> findAll() {
+        List<PoliticalPartyEntity>politicalPartyEntities = springDatePoliticalPartyRepository.findAll();
+        List<PoliticalParty> politicalPartyList = politicalPartyEntities.stream().map(politicalPartyMapper::politicalPartyEntityToPoliticalParty).collect(Collectors.toList());
+        return politicalPartyList;
     }
 
     @Override

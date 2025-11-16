@@ -3,13 +3,16 @@ package org.app.votaclaro.Infrastructure.DB.Repository.CandidateRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.app.votaclaro.Application.Port.Out.CandidateRepositoryPort;
+import org.app.votaclaro.Application.Service.PresidentialFormService;
 import org.app.votaclaro.Application.Service.ServiceFile.IUploadFilesService;
 import org.app.votaclaro.Domain.Model.Candidate;
+import org.app.votaclaro.Domain.Model.PoliticalParty;
 import org.app.votaclaro.Infrastructure.DB.Entity.CandidateEntity;
 import org.app.votaclaro.Infrastructure.DB.Entity.PoliticalPartyEntity;
 import org.app.votaclaro.Infrastructure.DB.Entity.PresidentialFormEntity;
 import org.app.votaclaro.Mapper.CandidateMapperAux;
 import org.app.votaclaro.Mapper.PoliticalPartyMapper;
+import org.app.votaclaro.Utils.ExtractionJson.CiudadanoService;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -23,8 +26,21 @@ public class JpaCandidateRepositoryAdapter implements CandidateRepositoryPort {
     private final SpringDateCandidateRepository springDateCandidateRepository;
     private final IUploadFilesService iUploadFilesService;
     private final PoliticalPartyMapper politicalPartyMapper;
+    private final CiudadanoService ciudadanoService;
+
+
+
     @Override
     public Candidate save(Candidate candidate, MultipartFile urlImgPerson) throws Exception {
+
+        if( ciudadanoService.findByDniExists(candidate.getDni()) == false){
+            throw new RuntimeException("Ciudadano no encontrado");
+        }
+
+        if(springDateCandidateRepository.existsByDni(candidate.getDni())){
+            throw new RuntimeException("El dni del candidate ya existe");
+        }
+
         log.info("Guardando imagen de Candidato en el servidor...");
         String ImgPerson = iUploadFilesService.handleFileUpload(urlImgPerson);
         PoliticalPartyEntity politicalPartyEntity = politicalPartyMapper.politicalPartyToPoliticalPartyEntity(candidate.getPoliticalParty());
@@ -35,6 +51,36 @@ public class JpaCandidateRepositoryAdapter implements CandidateRepositoryPort {
         CandidateEntity candidateEntity = new CandidateEntity(null,candidate.getDni(),ImgPerson,politicalPartyEntity,presidentialFormEntity);
         candidateEntity = springDateCandidateRepository.save(candidateEntity);
         return CandidateMapperAux.candidateEntityToCandidatoForNull(candidateEntity);
+    }
+
+    @Override
+    public Candidate saveWithoutPresidentForm(Candidate candidate, MultipartFile urlImgPerson) throws Exception {
+
+        if(springDateCandidateRepository.existsByDni(candidate.getDni())){
+            throw new Exception("El dni del candidate ya existe");
+        }
+        log.info("Guardando imagen de Candidato en el servidor...");
+
+        String ImgPerson = iUploadFilesService.handleFileUpload(urlImgPerson);
+
+        PoliticalPartyEntity politicalPartyEntity = politicalPartyMapper.politicalPartyToPoliticalPartyEntity(candidate.getPoliticalParty());
+
+        System.out.println("Id de PoliticalPartyEntity:"+politicalPartyEntity.getId());
+
+        CandidateEntity candidateEntity = new CandidateEntity(null,candidate.getDni(),ImgPerson,politicalPartyEntity,null);
+
+        candidateEntity = springDateCandidateRepository.save(candidateEntity);
+
+        return new Candidate(
+                candidateEntity.getId(),
+                candidateEntity.getDni(),
+                new PoliticalParty(
+                        candidateEntity.getPoliticalParty().getId(),
+                        null,null,null,null,null,null,null,null
+                ),
+                null, // puede ser null
+                candidateEntity.getUrlImgPerson()
+        );
     }
 
     @Override

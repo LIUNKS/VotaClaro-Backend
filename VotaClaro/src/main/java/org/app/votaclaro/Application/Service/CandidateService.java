@@ -22,6 +22,7 @@ public class CandidateService implements CreateCandidateUseCase {
     private final CandidateRepositoryPort candidateRepositoryPort;
     private final PoliticalPartyRepositoryPort politicalPartyRepositoryPort;
     private final PresidentialFormRepositoryPort presidentialFormRepositoryPort;
+
     @Override
     public CandidateResponse createCandidate(CandidateRequest candidateRequest, MultipartFile urlImgPerson) throws Exception {
         PoliticalParty politicalParty = politicalPartyRepositoryPort.findById(candidateRequest.politicalPartyId());
@@ -31,13 +32,11 @@ public class CandidateService implements CreateCandidateUseCase {
         candidate = candidateRepositoryPort.save(candidate,urlImgPerson);
         return CandidateMapperAux.candidateToCandidateResponse(candidate);
     }
-
     @Override
     public CandidateResponse createCandidateWithoutPresidentialForm(CandidateRequestWithoutForm candidateRequestWithoutForm, MultipartFile urlImgPerson) throws Exception {
         PoliticalParty politicalParty = politicalPartyRepositoryPort.findById(candidateRequestWithoutForm.politicalPartyId());
         Candidate candidate = new Candidate(null,candidateRequestWithoutForm.dni(),politicalParty,null,null);
-        candidate = candidateRepositoryPort.save(candidate,urlImgPerson);
-        return CandidateMapperAux.candidateToCandidateResponse(candidate);
+        candidate = candidateRepositoryPort.saveWithoutPresidentForm(candidate,urlImgPerson);
+        return CandidateMapperAux.candidateToCandidateResponseWithoutForm(candidate);
     }
-
 }

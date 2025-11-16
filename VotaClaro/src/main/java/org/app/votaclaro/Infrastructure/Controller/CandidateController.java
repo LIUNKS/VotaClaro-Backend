@@ -3,6 +3,7 @@ package org.app.votaclaro.Infrastructure.Controller;
 import lombok.RequiredArgsConstructor;
 import org.app.votaclaro.Application.Service.CandidateService;
 import org.app.votaclaro.Http.Request.CandidateRequest;
+import org.app.votaclaro.Http.Request.CandidateRequestWithoutForm;
 import org.app.votaclaro.Http.Response.CandidateResponse;
 import org.app.votaclaro.Utils.SuccessMessage;
 import org.springframework.http.HttpStatus;
@@ -27,6 +28,22 @@ public class CandidateController {
     ) throws Exception {
         CandidateResponse response =
                 candidateService.createCandidate(candidateRequest, urlImgPerson);
+        SuccessMessage<CandidateResponse> success =
+                SuccessMessage.<CandidateResponse>builder()
+                        .message("Candidate created successfully")
+                        .status(HttpStatus.CREATED.value())
+                        .body(response)
+                        .build();
+        return ResponseEntity.status(HttpStatus.CREATED).body(success);
+    }
+
+    @PostMapping("/add/wtPresidentialForm")
+    public ResponseEntity<SuccessMessage<CandidateResponse>> createCandidateWithoutPresidentialForm(
+            @RequestPart("candidateRequest")CandidateRequestWithoutForm candidateRequestWithoutForm,
+            @RequestPart("urlImgPerson") MultipartFile urlImgPerson
+    ) throws Exception {
+        CandidateResponse response =
+                candidateService.createCandidateWithoutPresidentialForm(candidateRequestWithoutForm, urlImgPerson);
         SuccessMessage<CandidateResponse> success =
                 SuccessMessage.<CandidateResponse>builder()
                         .message("Candidate created successfully")

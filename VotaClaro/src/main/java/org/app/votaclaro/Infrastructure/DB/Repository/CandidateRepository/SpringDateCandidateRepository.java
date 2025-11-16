@@ -6,4 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.UUID;
 
 public interface SpringDateCandidateRepository extends JpaRepository<CandidateEntity, UUID> {
+    boolean existsByDni(String dni);
 }

@@ -7,5 +7,6 @@ import java.util.UUID;
 
 public interface CandidateRepositoryPort {
     Candidate save(Candidate candidate, MultipartFile urlImgPerson) throws Exception;
+    Candidate saveWithoutPresidentForm(Candidate candidate, MultipartFile urlImgPerson) throws Exception;
     Candidate findById(UUID id);
 }

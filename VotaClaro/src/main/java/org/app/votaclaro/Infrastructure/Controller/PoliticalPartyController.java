@@ -3,16 +3,16 @@ package org.app.votaclaro.Infrastructure.Controller;
 import lombok.RequiredArgsConstructor;
 import org.app.votaclaro.Application.Service.PoliticalPartyService;
 import org.app.votaclaro.Http.Request.PoliticalPartyRequest;
+import org.app.votaclaro.Http.Response.PoliticalPartyItem;
 import org.app.votaclaro.Http.Response.PoliticalPartyResponse;
 import org.app.votaclaro.Utils.SuccessMessage;
 import org.springframework.http.HttpStatus;
 
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestPart;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/politicalParty")
@@ -39,6 +39,20 @@ public class PoliticalPartyController {
 
         return ResponseEntity.status(HttpStatus.CREATED).body(success);
     }
+
+    @GetMapping("/list")
+    public ResponseEntity<SuccessMessage<List<PoliticalPartyItem>>> getPoliticalPartyList() {
+        List<PoliticalPartyItem> list = politicalPartyService.getList();
+
+        SuccessMessage<List<PoliticalPartyItem>> success = SuccessMessage.<List<PoliticalPartyItem>>builder()
+                .message("Political parties retrieved successfully")
+                .status(HttpStatus.OK.value())
+                .body(list)
+                .build();
+
+        return ResponseEntity.ok(success);
+    }
+
 
     /**
      *     @PostMapping

@@ -22,15 +22,11 @@ public class JpaNomineeRepositoryAdapter implements NomineeRepositoryPort {
 
     @Override
     public Nominee save(Nominee nominee) {
-
         CandidateEntity candidateEntity = CandidateMapperAux.candidateToCandidateEntityId(nominee.getCandidate());
         PoliticalPartyEntity politicalPartyEntity = PoliticalPartyMapperAux.politicalPartyToPoliticalPartyEntity(nominee.getPoliticalParty());
-
         NomineeEntity nomineeEntity = NomineeMapperAux.NomineeToNomineeEntity(nominee, politicalPartyEntity, candidateEntity);
-
         nomineeEntity = springDateNomineeRepository.save(nomineeEntity);
-
-        return null;
+        return NomineeMapperAux.nomineeEntityToNominee(nomineeEntity);
     }
 
 }

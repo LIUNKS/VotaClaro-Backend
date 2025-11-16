@@ -14,6 +14,11 @@ public class CiudadanoService {
         this.ciudadanos = dataJson.cargarCiudadanos();
     }
 
+    public Boolean findByDniExists(String dni){
+        return ciudadanos.stream()
+                .anyMatch(c -> c.getDni().equals(dni));
+    }
+
     public Ciudadano findByDni(String dni){
         return ciudadanos.stream()
                 .filter(c -> c.getDni().equalsIgnoreCase(dni))
