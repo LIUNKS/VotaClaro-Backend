@@ -36,7 +36,6 @@ public class JpaCandidateRepositoryAdapter implements CandidateRepositoryPort {
         if(springDateCandidateRepository.existsByDni(candidate.getDni())){
             throw new RuntimeException("El dni del candidate ya existe");
         }
-
         log.info("Guardando imagen de Candidato en el servidor...");
         String ImgPerson = iUploadFilesService.handleFileUpload(urlImgPerson);
         PoliticalPartyEntity politicalPartyEntity = politicalPartyMapper.politicalPartyToPoliticalPartyEntity(candidate.getPoliticalParty());
