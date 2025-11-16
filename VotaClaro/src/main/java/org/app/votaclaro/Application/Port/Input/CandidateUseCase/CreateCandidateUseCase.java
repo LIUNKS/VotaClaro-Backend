@@ -5,5 +5,5 @@ import org.app.votaclaro.Http.Response.CandidateResponse;
 import org.springframework.web.multipart.MultipartFile;
 
 public interface CreateCandidateUseCase {
-    CandidateResponse createCandidate(CandidateRequest candidateRequest, MultipartFile urlCv);
+    CandidateResponse createCandidate(CandidateRequest candidateRequest, MultipartFile urlImgPerson);
 }

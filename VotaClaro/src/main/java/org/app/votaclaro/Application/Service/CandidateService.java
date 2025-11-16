@@ -1,16 +1,30 @@
 package org.app.votaclaro.Application.Service;
 
+import lombok.RequiredArgsConstructor;
 import org.app.votaclaro.Application.Port.Input.CandidateUseCase.CreateCandidateUseCase;
+import org.app.votaclaro.Application.Port.Out.CandidateRepositoryPort;
+import org.app.votaclaro.Application.Port.Out.PoliticalPartyRepositoryPort;
+import org.app.votaclaro.Application.Port.Out.PresidentialFormRepositoryPort;
+import org.app.votaclaro.Domain.Model.PoliticalParty;
+import org.app.votaclaro.Domain.Model.PresidentialForm;
 import org.app.votaclaro.Http.Request.CandidateRequest;
 import org.app.votaclaro.Http.Response.CandidateResponse;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 @Service
+@RequiredArgsConstructor
 public class CandidateService implements CreateCandidateUseCase {
 
+    private final CandidateRepositoryPort candidateRepositoryPort;
+    private final PoliticalPartyRepositoryPort politicalPartyRepositoryPort;
+    private final PresidentialFormRepositoryPort presidentialFormRepositoryPort;
     @Override
     public CandidateResponse createCandidate(CandidateRequest candidateRequest, MultipartFile urlCv) {
+
+        PoliticalParty politicalParty = politicalPartyRepositoryPort.findById(candidateRequest.politicalPartyId());
+        PresidentialForm presidentialForm = presidentialFormRepositoryPort.findById(candidateRequest.presidentialFormId());
+
         return null;
     }
 

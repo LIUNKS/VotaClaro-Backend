@@ -5,16 +5,18 @@ import java.util.UUID;
 public class PresidentialForm {
 
     private UUID id;
-    private Byte count;
+    private Integer count;
     private Boolean isFull;
     private PoliticalParty politicalParty;
 
-    public PresidentialForm(UUID id, Byte count, Boolean isFull, PoliticalParty politicalParty) {
+    public PresidentialForm(UUID id, Integer count, Boolean isFull, PoliticalParty politicalParty) {
         this.id = id;
         this.count = count;
         this.isFull = isFull;
         this.politicalParty = politicalParty;
     }
+
+
 
     public UUID getId() {
         return id;
@@ -24,11 +26,11 @@ public class PresidentialForm {
         this.id = id;
     }
 
-    public Byte getCount() {
+    public Integer getCount() {
         return count;
     }
 
-    public void setCount(Byte count) {
+    public void setCount(Integer count) {
         this.count = count;
     }
 

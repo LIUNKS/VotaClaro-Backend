@@ -17,7 +17,7 @@ public class PresidentialFormEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "presidential_form_id")
     private UUID id;
-    private Byte count = 0;
+    private Integer count = 0;
     private Boolean isFull = Boolean.FALSE;
     @OneToOne(
             cascade = {CascadeType.REFRESH, CascadeType.MERGE}

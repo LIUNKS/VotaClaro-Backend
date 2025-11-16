@@ -21,6 +21,7 @@ public class CandidateEntity {
     @Column(name = "candidate_id")
     private UUID id;
     private String dni;
+    private String urlImgPerson;
 
     @ManyToOne(
             cascade = {CascadeType.REFRESH, CascadeType.MERGE}

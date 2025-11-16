@@ -23,7 +23,7 @@ public class PolicyPlanController {
 
     private final PolicyPlanService policyPlanService;
 
-    @PostMapping()
+    @PostMapping("/add")
     public ResponseEntity<SuccessMessage<PolicyPlanResponse>> createPolicyPlan(
             @RequestPart("policyPlanRequest") PolicyPlanRequest policyPlanRequest,
             @RequestPart("urlPdf") MultipartFile urlPdf
