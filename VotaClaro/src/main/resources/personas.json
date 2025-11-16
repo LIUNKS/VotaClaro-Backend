@@ -1,0 +1,852 @@
+{
+  "ciudadanos": [
+    {
+      "ciudadano": {
+        "id": "10001088",
+        "dni": "10001088",
+        "nombre_completo": "Keiko Sofía Fujimori Higuchi",
+        "datos_personales": {
+          "fecha_nacimiento": "25/05/1975",
+          "sexo": "F",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Junín",
+            "provincia": "Chupaca",
+            "distrito": "Chupaca"
+          },
+          "distrito": "Jesús María"
+        },
+        "antecedentes": {
+          "total": 0,
+          "penales": 0,
+          "obligaciones": 0,
+          "lista_sentencias": []
+        },
+        "ingresos": {
+          "total": 222526,
+          "publico": 0,
+          "privado": 222526,
+          "renta_publico": 0,
+          "renta_privado": 0,
+          "otro_ingreso_publico": 0,
+          "otro_ingreso_privado": 0
+        },
+        "bienes": {
+          "valor_total": 115998,
+          "muebles": [],
+          "inmuebles": [],
+          "detalle_bienes": [
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Subaru Forester",
+              "anio": null,
+              "placa": "AXH-007",
+              "caracteristica": null,
+              "valor": 115998,
+              "comentario": "Embargado por orden judicial (incidente 299-2017-51)"
+            }
+          ],
+          "acciones": []
+        },
+        "local_votacion": {
+          "schoolName": "Colegio Nacional San José",
+          "address": "Av. Principal 123, Miraflores, Lima",
+          "tableNumber": "012345",
+          "latitude": -12.1203,
+          "longitude": -77.0282,
+          "hours": "8:00 AM - 6:00 PM",
+          "capacity": "350 votantes"
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "2020",
+            "hasta": "0000",
+            "cargo": "Presidenta",
+            "organizacion": "Fuerza Popular"
+          },
+          {
+            "desde": "2009",
+            "hasta": "0000",
+            "cargo": "Fundador",
+            "organizacion": "Fuerza Popular"
+          },
+          {
+            "desde": "2013",
+            "hasta": "0000",
+            "cargo": "Presidenta",
+            "organizacion": "Oportunidades Instituto para el Desarrollo"
+          },
+          {
+            "desde": "2006",
+            "hasta": "2011",
+            "cargo": "Congresista de la República",
+            "organizacion": "Alianza por el Futuro"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Boston University",
+            "carrera": "Administración de Empresas",
+            "grado": "Licenciatura",
+            "anio_fin": 1997
+          },
+          {
+            "institucion": "Columbia University",
+            "carrera": "Maestría en Administración de Empresas",
+            "grado": "Maestría",
+            "anio_fin": 2008
+          },
+          {
+            "institucion": "SUNY at Stony Brook",
+            "carrera": "Administración de Empresas",
+            "grado": "No concluido",
+            "anio_fin": "1995"
+          }
+        ],
+        "cargos_partidarios": [],
+        "cargos_eleccion_popular": []
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "07845838",
+        "dni": "07845838",
+        "nombre_completo": "Rafael Bernardo López Aliaga Cazorla",
+        "datos_personales": {
+          "fecha_nacimiento": "11/02/1961",
+          "sexo": "M",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Junín",
+            "provincia": "Chupaca",
+            "distrito": "Chupaca"
+          },
+          "distrito": "Lima"
+        },
+        "antecedentes": {
+          "total": 0,
+          "penales": 0,
+          "obligaciones": 0,
+          "lista_sentencias": []
+        },
+        "ingresos": {
+          "total": 490577,
+          "publico": 0,
+          "privado": 490577,
+          "renta_publico": 0,
+          "renta_privado": 0,
+          "otro_ingreso_publico": 0,
+          "otro_ingreso_privado": 0
+        },
+        "bienes": {
+          "valor_total": 1094650,
+          "muebles": [],
+          "inmuebles": [],
+          "detalle_bienes": [
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Avenida Mariscal La Mar 862 N°7",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Urb. Santa Cruz, Miraflores",
+              "valor": 53215.40,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Calle Manuel Tovar 121",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Miraflores, Lima",
+              "valor": 272247.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Zona Registral IX - Sede Lima",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Balnearios - Propiedades",
+              "valor": 721638.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Año 2013",
+              "anio": 2013,
+              "placa": "F9A193",
+              "caracteristica": null,
+              "valor": 45000,
+              "comentario": ""
+            }
+          ],
+          "acciones": []
+        },
+        "local_votacion": {
+          "schoolName": "Colegio Nuestra Señora de Guadalupe",
+          "address": "Av. 28 de Julio 725, Miraflores, Lima",
+          "tableNumber": "022345",
+          "latitude": -12.1210,
+          "longitude": -77.0300,
+          "hours": "8:00 AM - 6:00 PM",
+          "capacity": "400 votantes"
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "2020",
+            "hasta": "0000",
+            "cargo": "Presidente",
+            "organizacion": "Renovación Popular"
+          },
+          {
+            "desde": "2019",
+            "hasta": "0000",
+            "cargo": "Representante Legal",
+            "organizacion": "Renovación Popular"
+          },
+          {
+            "desde": "1999",
+            "hasta": "0000",
+            "cargo": "Director",
+            "organizacion": "Perurail S.A."
+          },
+          {
+            "desde": "1999",
+            "hasta": "0000",
+            "cargo": "Director",
+            "organizacion": "Peru Belmond Hotels S.A."
+          },
+          {
+            "desde": "2000",
+            "hasta": "0000",
+            "cargo": "Director",
+            "organizacion": "Ferrocarril Trasandino S.A."
+          },
+          {
+            "desde": "1985",
+            "hasta": "1989",
+            "cargo": "Gerente de Banca Corporativa y Desarrollo",
+            "organizacion": "Citibank NA Lima"
+          },
+          {
+            "desde": "2017",
+            "hasta": "2020",
+            "cargo": "Catedrático",
+            "organizacion": "Universidad Nacional de Ingeniería"
+          },
+          {
+            "desde": "2007",
+            "hasta": "2010",
+            "cargo": "Regidor Provincial",
+            "organizacion": "Alianza Electoral Unidad Nacional"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Universidad de Piura",
+            "carrera": "Ingeniería Industrial",
+            "grado": "Licenciatura",
+            "anio_fin": 1995
+          },
+          {
+            "institucion": "Universidad del Pacífico",
+            "carrera": "Magíster en Administración",
+            "grado": "Maestría",
+            "anio_fin": 1996
+          }
+        ],
+        "cargos_partidarios": [],
+        "cargos_eleccion_popular": []
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "17903382",
+        "dni": "17903382",
+        "nombre_completo": "César Acuña Peralta",
+        "datos_personales": {
+          "fecha_nacimiento": "11/08/1952",
+          "sexo": "M",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Junín",
+            "provincia": "Chupaca",
+            "distrito": "Chupaca"
+          },
+          "distrito": "Tacabamba"
+        },
+        "antecedentes": {
+          "total": 0,
+          "penales": 0,
+          "obligaciones": 0,
+          "lista_sentencias": []
+        },
+        "ingresos": {
+          "total": 9571448,
+          "publico": 0,
+          "privado": 9571448,
+          "renta_publico": 0,
+          "renta_privado": 0,
+          "otro_ingreso_publico": 0,
+          "otro_ingreso_privado": 6508000
+        },
+        "bienes": {
+          "valor_total": 63836272.83,
+          "muebles": [],
+          "inmuebles": [],
+          "detalle_bienes": [
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Calle Los Molles N°153-159, Urb. Casuarinas Alta",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Santiago de Surco, Lima",
+              "valor": 4560000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Chalet 17, Camino del Soto",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Soto de la Moraleja, Alcobendas, Madrid",
+              "valor": 3054560.64,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "MZ. L Lote 21 Urb. San Nicolás",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Trujillo, La Libertad",
+              "valor": 44016.76,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "MZ. L Lote 20 Urb. San Nicolás",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Trujillo, La Libertad",
+              "valor": 164599.77,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Av. Balneario de Naplo",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Pucusana, Lima",
+              "valor": 1897612.50,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Predio Los Tallos, Moche",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Trujillo, La Libertad",
+              "valor": 2692591.65,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Predio rural U.C. 1449 Conache Valle Moche",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Trujillo, La Libertad",
+              "valor": 2042812.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Predio rural sector Huarruaca",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Tacabamba, Cajamarca",
+              "valor": 65000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Hilux",
+              "anio": 2013,
+              "placa": "D9T897",
+              "caracteristica": "Toyota Hilux 2013",
+              "valor": 89266.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Hilux",
+              "anio": null,
+              "placa": "7480FB",
+              "caracteristica": "Toyota Hilux",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Severo RJ",
+              "anio": null,
+              "placa": "4642FB",
+              "caracteristica": "Raudo Severo RJ",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Severo RD",
+              "anio": null,
+              "placa": "4641FB",
+              "caracteristica": "Raudo Severo RD",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Severo RJ",
+              "anio": null,
+              "placa": "4005FB",
+              "caracteristica": "Raudo Severo RJ",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Severo RD",
+              "anio": null,
+              "placa": "3509FB",
+              "caracteristica": "Raudo Severo RD",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Severo RJ",
+              "anio": null,
+              "placa": "3235FB",
+              "caracteristica": "Raudo Severo RJ",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Severo RD",
+              "anio": null,
+              "placa": "3190FB",
+              "caracteristica": "Raudo Severo RD",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Lexus LX",
+              "anio": 2018,
+              "placa": "BDT031",
+              "caracteristica": "Lexus LX 2018",
+              "valor": 420071.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Audi Q3 Design",
+              "anio": null,
+              "placa": "AYL423",
+              "caracteristica": "Audi Q3 Design 2.0",
+              "valor": 143860.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Fortuner",
+              "anio": null,
+              "placa": "AVD543",
+              "caracteristica": "Toyota Fortuner Gris Mica",
+              "valor": 96000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Mercedes-Benz S500L",
+              "anio": 2016,
+              "placa": "ARH133",
+              "caracteristica": null,
+              "valor": 160000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Hilux",
+              "anio": null,
+              "placa": "AJM910",
+              "caracteristica": "Toyota Hilux Blanco",
+              "valor": 30000.00,
+              "comentario": ""
+            }
+          ],
+          "acciones": [
+            {
+              "persona_juridica": "Universidad César Vallejo S.A.C.",
+              "tipo": "ACCIONES",
+              "cantidad": 3839570.00,
+              "valor": 383957000.00,
+              "comentario": "99.61% del capital"
+            },
+            {
+              "persona_juridica": "Holding Investment Capital SAC",
+              "tipo": "ACCIONES",
+              "cantidad": 8000.00,
+              "valor": 8000.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "César Vallejo Fútbol Club S.A.C.",
+              "tipo": "ACCIONES",
+              "cantidad": 500.00,
+              "valor": 50000.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "Empresa Editora El Heraldo S.A.C.",
+              "tipo": "ACCIONES",
+              "cantidad": 125.00,
+              "valor": 12500.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "Cadena de Radio y Televisión para la Integración Nacional S.A.C.",
+              "tipo": "ACCIONES",
+              "cantidad": 125.00,
+              "valor": 12500.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "Empresa de Radio y Televisión para la Integración Regional S.A. \"ERTIRSA\"",
+              "tipo": "ACCIONES",
+              "cantidad": 30.00,
+              "valor": 3000.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "Pesquera Neptuno S.A.",
+              "tipo": "ACCIONES",
+              "cantidad": 50.00,
+              "valor": 500.00,
+              "comentario": ""
+            }
+          ]
+        },
+        "local_votacion": {
+          "schoolName": "IE Gustavo Ries",
+          "address": "Trujillo, La Libertad",
+          "tableNumber": "2223",
+          "latitude": null,
+          "longitude": null,
+          "hours": "Mañana / Tarde según mesa",
+          "capacity": null
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "1999",
+            "hasta": "2019",
+            "cargo": "Presidente del Directorio",
+            "organizacion": "Universidad César Vallejo"
+          },
+          {
+            "desde": "2005",
+            "hasta": "2007",
+            "cargo": "Gerente General",
+            "organizacion": "Universidad César Vallejo"
+          },
+          {
+            "desde": "2019",
+            "hasta": "0000",
+            "cargo": "Asesor",
+            "organizacion": "Universidad César Vallejo"
+          },
+          {
+            "desde": "2001",
+            "hasta": "2006",
+            "cargo": "Congresista de la República",
+            "organizacion": "Alianza Electoral Unidad Nacional"
+          },
+          {
+            "desde": "2000",
+            "hasta": "2001",
+            "cargo": "Congresista de la República",
+            "organizacion": "Solidaridad Nacional"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Universidad Nacional de Trujillo",
+            "carrera": "Ingeniería Química",
+            "grado": "Bachiller",
+            "anio_fin": 1995
+          },
+          {
+            "institucion": "Universidad Nacional de Trujillo",
+            "carrera": "Ingeniería Química",
+            "grado": "Ingeniero",
+            "anio_fin": 1995
+          },
+          {
+            "institucion": "Universidad Complutense de Madrid",
+            "carrera": "Doctorado",
+            "grado": "Doctor",
+            "anio_fin": 2013
+          },
+          {
+            "institucion": "Universidad de Los Andes",
+            "carrera": "Dirección Universitaria",
+            "grado": "Maestría",
+            "anio_fin": 1998
+          },
+          {
+            "institucion": "Universidad de Lima",
+            "carrera": "Administración de la Educación",
+            "grado": "Maestría",
+            "anio_fin": 1997
+          }
+        ],
+        "cargos_partidarios": [],
+        "cargos_eleccion_popular": []
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "41904418",
+        "dni": "41904418",
+        "nombre_completo": "Álvaro Gonzalo Paz de la Barra Freigeiro",
+        "datos_personales": {
+          "fecha_nacimiento": "26/07/1983",
+          "sexo": "M",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Miraflores"
+          },
+          "distrito": "La Molina",
+          "domicilio": "Calle Los Magistrados 119, Urb. Los Molinos, La Molina, Lima, Lima"
+        },
+        "antecedentes": {
+          "total": 0,
+          "penales": 0,
+          "obligaciones": 0,
+          "lista_sentencias": []
+        },
+        "ingresos": {
+          "total": 520004.00,
+          "publico": 159600.00,
+          "privado": 360404.00,
+          "renta_publico": 0.00,
+          "renta_privado": 0.00,
+          "otro_ingreso_publico": 0.00,
+          "otro_ingreso_privado": 360404.00
+        },
+        "bienes": {
+          "valor_total": 5439800,
+          "muebles": [],
+          "inmuebles": [],
+          "detalle_bienes": [
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Av D Nro. S/N Tercera Etapa Cieneguilla",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Casa",
+              "valor": 400000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Av D Nro. S/N Tercera Etapa Cieneguilla",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Local",
+              "valor": 100000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Calle Grimaldo del Solar 226",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Estacionamiento",
+              "valor": 60000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Calle Grimaldo del Solar 226",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Estacionamiento",
+              "valor": 60000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Calle Grimaldo del Solar 228 Dpto 1002",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Departamento",
+              "valor": 510000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Otro barrio de Yauris S/N Huancayo",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Terreno",
+              "valor": 200000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Calle Alcanfores 427 Dpto Duplex N° B-204 - Segundo Piso",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Urb. Del Leuro, Miraflores",
+              "valor": 660000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Calle Schell 470 Estac N° 66 - Segundo Sótano",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Urb. Del Leuro, Miraflores",
+              "valor": 66000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Calle Bolívar 472 Ofic 1004",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Miraflores, Lima",
+              "valor": 400000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Calle Bolívar 472 Ofic 1002",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Miraflores, Lima",
+              "valor": 250000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Calle Bolívar 470 Estac 23",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Miraflores, Lima",
+              "valor": 59400.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Calle Bolívar 470 Estacionamiento N° 31",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Miraflores, Lima",
+              "valor": 59400.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Inmueble",
+              "modelo": "Fundo San Lorenzo",
+              "anio": null,
+              "placa": null,
+              "caracteristica": "Santiago de Surco, Lima",
+              "valor": 1675000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Mercedes Benz E300",
+              "anio": null,
+              "placa": "AUI606",
+              "caracteristica": null,
+              "valor": 190000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "BMW 640i",
+              "anio": null,
+              "placa": "F1V453",
+              "caracteristica": null,
+              "valor": 175000.00,
+              "comentario": ""
+            },
+            {
+              "tipo_bien": "Vehiculo",
+              "modelo": "Camioneta Expedition",
+              "anio": null,
+              "placa": "C1D076",
+              "caracteristica": null,
+              "valor": 75000.00,
+              "comentario": ""
+            }
+          ],
+          "acciones": [
+            {
+              "persona_juridica": "PBF Abogados SAC",
+              "tipo": "ACCIONES",
+              "cantidad": 24000.00,
+              "valor": 1.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "PBF Proevent SAC",
+              "tipo": "ACCIONES",
+              "cantidad": 24000.00,
+              "valor": 1.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "Estudio Paz de la Barra & Vidurrizaga",
+              "tipo": "ACCIONES",
+              "cantidad": 4674.00,
+              "valor": 10.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "Paz de la Barra Abogados",
+              "tipo": "ACCIONES",
+              "cantidad": 1099.00,
+              "valor": 1.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "Corporación Legal Paz de la Barra",
+              "tipo": "ACCIONES",
+              "cantidad": 400.00,
+              "valor": 1.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "PBF Transmaq",
+              "tipo": "ACCIONES",
+              "cantidad": 24000.00,
+              "valor": 1.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "PBF Obras",
+              "tipo": "ACCIONES",
+              "cantidad": 24000.00,
+              "valor": 1.00,
+              "comentario": ""
+            
