@@ -41,6 +41,20 @@ public class JpaPresidentialFromRepositoryAdapter implements PresidentialFormRep
                 .orElseThrow(()->new RuntimeException("No se encontro el presidentialForm con el id: "+id));
         return PresidentialFormResponseMapperAux.presidentialFormToPresidentialFormEntity(presidentialFormEntity);
     }
+    @Override
+    public void findByIdCount(UUID id) {
+        PresidentialFormEntity entity = springDatePresidentialFormRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("No se encontró el presidentialForm con el id: " + id));
+        if (entity.getIsFull() != null && entity.getIsFull()) {
+            throw new RuntimeException("La lista ya está llena (máximo 3 candidatos).");
+        }
+        int newCount = (entity.getCount() == null ? 0 : entity.getCount() ) + 1;
+        entity.setCount(newCount);
+        if (newCount >= 3) {
+            entity.setIsFull(true);
+        }
+        springDatePresidentialFormRepository.save(entity);
+    }
 
 
 }

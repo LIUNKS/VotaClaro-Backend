@@ -7,4 +7,5 @@ import java.util.UUID;
 public interface PresidentialFormRepositoryPort {
     PresidentialForm save(PresidentialForm presidentialForm);
     PresidentialForm findById(UUID id);
+    void findByIdCount(UUID id);
 }

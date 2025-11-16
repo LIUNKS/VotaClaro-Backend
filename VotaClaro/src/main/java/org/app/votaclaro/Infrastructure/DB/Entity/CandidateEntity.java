@@ -20,6 +20,7 @@ public class CandidateEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "candidate_id")
     private UUID id;
+
     private String dni;
     private String urlImgPerson;
 

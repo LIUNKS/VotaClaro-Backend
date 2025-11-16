@@ -10,9 +10,23 @@ public class PresidentialForm {
     private PoliticalParty politicalParty;
 
     public PresidentialForm(UUID id, Integer count, Boolean isFull, PoliticalParty politicalParty) {
+
+        if (id == null) {
+            throw new IllegalArgumentException("El ID de la fórmula presidencial no puede ser nulo.");
+        }
+
+        int safeCount = (count == null ? 0 : count);
+
+        if (Boolean.TRUE.equals(isFull)) {
+            throw new RuntimeException("La lista de participantes ya está llena (límite 3).");
+        }
+
         this.id = id;
-        this.count = count;
-        this.isFull = isFull;
+
+        this.count = safeCount + 1;
+
+        this.isFull = this.count >= 3;
+
         this.politicalParty = politicalParty;
     }
 
