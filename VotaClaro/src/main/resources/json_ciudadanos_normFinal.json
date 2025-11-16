@@ -1,0 +1,1420 @@
+{
+  "ciudadanos": [
+    {
+      "ciudadano": {
+        "id": "10001088",
+        "dni": "10001088",
+        "nombre_completo": "Keiko Sofía Fujimori Higuchi",
+        "datos_personales": {
+          "fecha_nacimiento": "25/05/1975",
+          "sexo": "F",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Jesús María"
+          },
+          "domicilio": "Jesús María, Lima, Lima"
+        },
+        "antecedentes": {
+          "total": 0,
+          "penales": 0,
+          "obligaciones": 0,
+          "lista_sentencias": []
+        },
+        "ingresos": {
+          "total": 222526,
+          "publico": 0,
+          "privado": 222526,
+          "renta_publico": 0,
+          "renta_privado": 0,
+          "otro_ingreso_publico": 0,
+          "otro_ingreso_privado": 0
+        },
+        "bienes": {
+          "valor_total": 115998,
+          "muebles": [],
+          "inmuebles": [],
+          "vehiculos": [
+            {
+              "modelo": "Subaru Forester",
+              "anio": null,
+              "placa": "AXH-007",
+              "caracteristica": null,
+              "valor": 115998,
+              "comentario": "Embargado por orden judicial (incidente 299-2017-51)"
+            }
+          ],
+          "acciones": []
+        },
+        "local_votacion": {
+          "schoolName": "Colegio Nacional San José",
+          "address": "Av. Principal 123, Miraflores, Lima",
+          "tableNumber": "012345",
+          "latitude": -12.1203,
+          "longitude": -77.0282,
+          "hours": "8:00 AM - 6:00 PM",
+          "capacity": "350 votantes"
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "2020",
+            "hasta": null,
+            "cargo": "Presidenta",
+            "organizacion": "Fuerza Popular"
+          },
+          {
+            "desde": "2009",
+            "hasta": null,
+            "cargo": "Fundador",
+            "organizacion": "Fuerza Popular"
+          },
+          {
+            "desde": "2013",
+            "hasta": null,
+            "cargo": "Presidenta",
+            "organizacion": "Oportunidades Instituto para el Desarrollo"
+          },
+          {
+            "desde": "2006",
+            "hasta": "2011",
+            "cargo": "Congresista de la República",
+            "organizacion": "Alianza por el Futuro"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Boston University",
+            "carrera": "Administración de Empresas",
+            "grado": "Licenciatura",
+            "anio_fin": 1997
+          },
+          {
+            "institucion": "Columbia University",
+            "carrera": "Maestría en Administración de Empresas",
+            "grado": "Maestría",
+            "anio_fin": 2008
+          },
+          {
+            "institucion": "SUNY at Stony Brook",
+            "carrera": "Administración de Empresas",
+            "grado": "No concluido",
+            "anio_fin": 1995
+          }
+        ],
+        "cargos_partidarios": [],
+        "cargos_eleccion_popular": []
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "07845838",
+        "dni": "07845838",
+        "nombre_completo": "Rafael Bernardo López Aliaga Cazorla",
+        "datos_personales": {
+          "fecha_nacimiento": "11/02/1961",
+          "sexo": "M",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lima"
+          },
+          "domicilio": "Lima, Lima, Lima"
+        },
+        "antecedentes": {
+          "total": 0,
+          "penales": 0,
+          "obligaciones": 0,
+          "lista_sentencias": []
+        },
+        "ingresos": {
+          "total": 490577,
+          "publico": 0,
+          "privado": 490577,
+          "renta_publico": 0,
+          "renta_privado": 0,
+          "otro_ingreso_publico": 0,
+          "otro_ingreso_privado": 0
+        },
+        "bienes": {
+          "valor_total": 1094650,
+          "muebles": [],
+          "inmuebles": [
+            {
+              "direccion": "Avenida Mariscal La Mar 862 N°7",
+              "partida_sunarp": null,
+              "tipo": "Inmueble",
+              "caracteristica": "Urb. Santa Cruz, Miraflores",
+              "autovaluo": 53215.40,
+              "valor": 53215.40,
+              "comentario": ""
+            },
+            {
+              "direccion": "Calle Manuel Tovar 121",
+              "partida_sunarp": null,
+              "tipo": "Inmueble",
+              "caracteristica": "Miraflores, Lima",
+              "autovaluo": 272247.00,
+              "valor": 272247.00,
+              "comentario": ""
+            },
+            {
+              "direccion": "Zona Registral IX - Sede Lima",
+              "partida_sunarp": null,
+              "tipo": "Inmueble",
+              "caracteristica": "Balnearios - Propiedades",
+              "autovaluo": 721638.00,
+              "valor": 721638.00,
+              "comentario": ""
+            }
+          ],
+          "vehiculos": [
+            {
+              "modelo": "Año 2013",
+              "anio": 2013,
+              "placa": "F9A193",
+              "caracteristica": null,
+              "valor": 45000,
+              "comentario": ""
+            }
+          ],
+          "acciones": []
+        },
+        "local_votacion": {
+          "schoolName": "Colegio Nuestra Señora de Guadalupe",
+          "address": "Av. 28 de Julio 725, Miraflores, Lima",
+          "tableNumber": "022345",
+          "latitude": -12.1210,
+          "longitude": -77.0300,
+          "hours": "8:00 AM - 6:00 PM",
+          "capacity": "400 votantes"
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "2020",
+            "hasta": null,
+            "cargo": "Presidente",
+            "organizacion": "Renovación Popular"
+          },
+          {
+            "desde": "2019",
+            "hasta": null,
+            "cargo": "Representante Legal",
+            "organizacion": "Renovación Popular"
+          },
+          {
+            "desde": "1999",
+            "hasta": null,
+            "cargo": "Director",
+            "organizacion": "Perurail S.A."
+          },
+          {
+            "desde": "1999",
+            "hasta": null,
+            "cargo": "Director",
+            "organizacion": "Peru Belmond Hotels S.A."
+          },
+          {
+            "desde": "2000",
+            "hasta": null,
+            "cargo": "Director",
+            "organizacion": "Ferrocarril Trasandino S.A."
+          },
+          {
+            "desde": "1985",
+            "hasta": "1989",
+            "cargo": "Gerente de Banca Corporativa y Desarrollo",
+            "organizacion": "Citibank NA Lima"
+          },
+          {
+            "desde": "2017",
+            "hasta": "2020",
+            "cargo": "Catedrático",
+            "organizacion": "Universidad Nacional de Ingeniería"
+          },
+          {
+            "desde": "2007",
+            "hasta": "2010",
+            "cargo": "Regidor Provincial",
+            "organizacion": "Alianza Electoral Unidad Nacional"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Universidad de Piura",
+            "carrera": "Ingeniería Industrial",
+            "grado": "Licenciatura",
+            "anio_fin": 1995
+          },
+          {
+            "institucion": "Universidad del Pacífico",
+            "carrera": "Magíster en Administración",
+            "grado": "Maestría",
+            "anio_fin": 1996
+          }
+        ],
+        "cargos_partidarios": [],
+        "cargos_eleccion_popular": []
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "17903382",
+        "dni": "17903382",
+        "nombre_completo": "César Acuña Peralta",
+        "datos_personales": {
+          "fecha_nacimiento": "11/08/1952",
+          "sexo": "M",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Cajamarca",
+            "provincia": "Chota",
+            "distrito": "Tacabamba"
+          },
+          "domicilio": "Tacabamba, Chota, Cajamarca"
+        },
+        "antecedentes": {
+          "total": 0,
+          "penales": 0,
+          "obligaciones": 0,
+          "lista_sentencias": []
+        },
+        "ingresos": {
+          "total": 9571448,
+          "publico": 0,
+          "privado": 9571448,
+          "renta_publico": 0,
+          "renta_privado": 0,
+          "otro_ingreso_publico": 0,
+          "otro_ingreso_privado": 6508000
+        },
+        "bienes": {
+          "valor_total": 63836272.83,
+          "muebles": [],
+          "inmuebles": [
+            {
+              "direccion": "Calle Los Molles N°153-159, Urb. Casuarinas Alta",
+              "partida_sunarp": null,
+              "tipo": "Inmueble",
+              "caracteristica": "Santiago de Surco, Lima",
+              "autovaluo": 4560000.00,
+              "valor": 4560000.00,
+              "comentario": ""
+            },
+            {
+              "direccion": "Chalet 17, Camino del Soto",
+              "partida_sunarp": null,
+              "tipo": "Inmueble",
+              "caracteristica": "Soto de la Moraleja, Alcobendas, Madrid",
+              "autovaluo": 3054560.64,
+              "valor": 3054560.64,
+              "comentario": ""
+            },
+            {
+              "direccion": "MZ. L Lote 21 Urb. San Nicolás",
+              "partida_sunarp": null,
+              "tipo": "Inmueble",
+              "caracteristica": "Trujillo, La Libertad",
+              "autovaluo": 44016.76,
+              "valor": 44016.76,
+              "comentario": ""
+            },
+            {
+              "direccion": "MZ. L Lote 20 Urb. San Nicolás",
+              "partida_sunarp": null,
+              "tipo": "Inmueble",
+              "caracteristica": "Trujillo, La Libertad",
+              "autovaluo": 164599.77,
+              "valor": 164599.77,
+              "comentario": ""
+            },
+            {
+              "direccion": "Av. Balneario de Naplo",
+              "partida_sunarp": null,
+              "tipo": "Inmueble",
+              "caracteristica": "Pucusana, Lima",
+              "autovaluo": 1897612.50,
+              "valor": 1897612.50,
+              "comentario": ""
+            },
+            {
+              "direccion": "Predio Los Tallos, Moche",
+              "partida_sunarp": null,
+              "tipo": "Inmueble",
+              "caracteristica": "Trujillo, La Libertad",
+              "autovaluo": 2692591.65,
+              "valor": 2692591.65,
+              "comentario": ""
+            },
+            {
+              "direccion": "Predio rural U.C. 1449 Conache Valle Moche",
+              "partida_sunarp": null,
+              "tipo": "Inmueble",
+              "caracteristica": "Trujillo, La Libertad",
+              "autovaluo": 2042812.00,
+              "valor": 2042812.00,
+              "comentario": ""
+            },
+            {
+              "direccion": "Predio rural sector Huarruaca",
+              "partida_sunarp": null,
+              "tipo": "Inmueble",
+              "caracteristica": "Tacabamba, Cajamarca",
+              "autovaluo": 65000.00,
+              "valor": 65000.00,
+              "comentario": ""
+            }
+          ],
+          "vehiculos": [
+            {
+              "modelo": "Hilux",
+              "anio": 2013,
+              "placa": "D9T897",
+              "caracteristica": "Toyota Hilux 2013",
+              "valor": 89266.00,
+              "comentario": ""
+            },
+            {
+              "modelo": "Hilux",
+              "anio": null,
+              "placa": "7480FB",
+              "caracteristica": "Toyota Hilux",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "modelo": "Severo RJ",
+              "anio": null,
+              "placa": "4642FB",
+              "caracteristica": "Raudo Severo RJ",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "modelo": "Severo RD",
+              "anio": null,
+              "placa": "4641FB",
+              "caracteristica": "Raudo Severo RD",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "modelo": "Severo RJ",
+              "anio": null,
+              "placa": "4005FB",
+              "caracteristica": "Raudo Severo RJ",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "modelo": "Severo RD",
+              "anio": null,
+              "placa": "3509FB",
+              "caracteristica": "Raudo Severo RD",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "modelo": "Severo RJ",
+              "anio": null,
+              "placa": "3235FB",
+              "caracteristica": "Raudo Severo RJ",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "modelo": "Severo RD",
+              "anio": null,
+              "placa": "3190FB",
+              "caracteristica": "Raudo Severo RD",
+              "valor": 10000.00,
+              "comentario": ""
+            },
+            {
+              "modelo": "Lexus LX",
+              "anio": 2018,
+              "placa": "BDT031",
+              "caracteristica": "Lexus LX 2018",
+              "valor": 420071.00,
+              "comentario": ""
+            },
+            {
+              "modelo": "Audi Q3 Design",
+              "anio": null,
+              "placa": "AYL423",
+              "caracteristica": "Audi Q3 Design 2.0",
+              "valor": 143860.00,
+              "comentario": ""
+            },
+            {
+              "modelo": "Fortuner",
+              "anio": null,
+              "placa": "AVD543",
+              "caracteristica": "Toyota Fortuner Gris Mica",
+              "valor": 96000.00,
+              "comentario": ""
+            },
+            {
+              "modelo": "Mercedes‑Benz S500L",
+              "anio": 2016,
+              "placa": "ARH133",
+              "caracteristica": null,
+              "valor": 160000.00,
+              "comentario": ""
+            },
+            {
+              "modelo": "Hilux",
+              "anio": null,
+              "placa": "AJM910",
+              "caracteristica": "Toyota Hilux Blanco",
+              "valor": 30000.00,
+              "comentario": ""
+            }
+          ],
+          "acciones": [
+            {
+              "persona_juridica": "Universidad César Vallejo S.A.C.",
+              "tipo": "ACCIONES",
+              "cantidad": 3839570.00,
+              "valor": 383957000.00,
+              "comentario": "99.61% del capital"
+            },
+            {
+              "persona_juridica": "Holding Investment Capital SAC",
+              "tipo": "ACCIONES",
+              "cantidad": 8000.00,
+              "valor": 8000.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "César Vallejo Fútbol Club S.A.C.",
+              "tipo": "ACCIONES",
+              "cantidad": 500.00,
+              "valor": 50000.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "Empresa Editora El Heraldo S.A.C.",
+              "tipo": "ACCIONES",
+              "cantidad": 125.00,
+              "valor": 12500.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "Cadena de Radio y Televisión para la Integración Nacional S.A.C.",
+              "tipo": "ACCIONES",
+              "cantidad": 125.00,
+              "valor": 12500.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "Empresa de Radio y Televisión para la Integración Regional S.A.",
+              "tipo": "ACCIONES",
+              "cantidad": 30.00,
+              "valor": 3000.00,
+              "comentario": ""
+            },
+            {
+              "persona_juridica": "Pesquera Neptuno S.A.",
+              "tipo": "ACCIONES",
+              "cantidad": 50.00,
+              "valor": 500.00,
+              "comentario": ""
+            }
+          ]
+        },
+        "local_votacion": {
+          "schoolName": "IE 3069 Generalísimo José de San Martín",
+          "address": "Av. Julio C. Tello 1ra Cdra, Ancón, Lima, Perú",
+          "tableNumber": "—",
+          "latitude": -11.8055,
+          "longitude": -77.2069,
+          "hours": "Mañana / Tarde según mesa",
+          "capacity": "300"
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "1999",
+            "hasta": "2019",
+            "cargo": "Presidente del Directorio",
+            "organizacion": "Universidad César Vallejo"
+          },
+          {
+            "desde": "2005",
+            "hasta": "2007",
+            "cargo": "Gerente General",
+            "organizacion": "Universidad César Vallejo"
+          },
+          {
+            "desde": "2019",
+            "hasta": null,
+            "cargo": "Asesor",
+            "organizacion": "Universidad César Vallejo"
+          },
+          {
+            "desde": "2001",
+            "hasta": "2006",
+            "cargo": "Congresista de la República",
+            "organizacion": "Alianza Electoral Unidad Nacional"
+          },
+          {
+            "desde": "2000",
+            "hasta": "2001",
+            "cargo": "Congresista de la República",
+            "organizacion": "Solidaridad Nacional"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Universidad Nacional de Trujillo",
+            "carrera": "Ingeniería Química",
+            "grado": "Bachiller",
+            "anio_fin": 1995
+          },
+          {
+            "institucion": "Universidad Nacional de Trujillo",
+            "carrera": "Ingeniería Química",
+            "grado": "Ingeniero",
+            "anio_fin": 1995
+          },
+          {
+            "institucion": "Universidad Complutense de Madrid",
+            "carrera": "Doctorado",
+            "grado": "Doctor",
+            "anio_fin": 2013
+          },
+          {
+            "institucion": "Universidad de Los Andes",
+            "carrera": "Dirección Universitaria",
+            "grado": "Maestría",
+            "anio_fin": 1998
+          },
+          {
+            "institucion": "Universidad de Lima",
+            "carrera": "Administración de la Educación",
+            "grado": "Maestría",
+            "anio_fin": 1997
+          }
+        ],
+        "cargos_partidarios": [],
+        "cargos_eleccion_popular": []
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "41904418",
+        "dni": "41904418",
+        "nombre_completo": "Álvaro Gonzalo Paz de la Barra Freigeiro",
+        "datos_personales": {
+          "fecha_nacimiento": "26/07/1983",
+          "sexo": "M",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Miraflores"
+          },
+          "domicilio": "Calle Los Magistrados 119, Urb. Los Molinos, La Molina, Lima, Lima"
+        },
+        "antecedentes": {
+          "total": 0,
+          "penales": 0,
+          "obligaciones": 0,
+          "lista_sentencias": []
+        },
+        "ingresos": {
+          "total": 520004.00,
+          "publico": 159600.00,
+          "privado": 360404.00,
+          "renta_publico": 0.00,
+          "renta_privado": 0.00,
+          "otro_ingreso_publico": 0.00,
+          "otro_ingreso_privado": 360404.00
+        },
+        "bienes": {
+          "valor_total": 5439800,
+          "muebles": [],
+          "inmuebles": [
+            {
+              "direccion": "Av D Nro. S/N Tercera Etapa Cieneguilla",
+              "partida_sunarp": null,
+              "tipo": "Casa",
+              "caracteristica": "Casa",
+              "autovaluo": 400000.00,
+              "valor": 400000.00,
+              "comentario": ""
+            },
+            {
+              "direccion": "Av D Nro. S/N Tercera Etapa Cieneguilla",
+              "partida_sunarp": null,
+              "tipo": "Local",
+              "caracteristica": "Local",
+              "autovaluo": 100000.00,
+              "valor": 100000.00,
+              "comentario": ""
+            },
+            {
+              "direccion": "Calle Grimaldo del Solar 226",
+              "partida_sunarp": null,
+              "tipo": "Estacionamiento",
+              "caracteristica": "Estacionamiento",
+              "autovaluo": 60000.00,
+              "valor": 60000.00,
+              "comentario": ""
+            }
+          ],
+          "vehiculos": [
+            {
+              "modelo": "Mercedes Benz E300",
+              "anio": null,
+              "placa": "AUI606",
+              "caracteristica": null,
+              "valor": 190000.00,
+              "comentario": ""
+            }
+          ],
+          "acciones": []
+        },
+        "local_votacion": {
+          "schoolName": "IE 1098 CAP. FAP José Abelardo Quiñones",
+          "address": "Av. Arnaldo Márquez 1698, Jesús María, Lima, Perú",
+          "tableNumber": "—",
+          "latitude": -12.0737,
+          "longitude": -77.0323,
+          "hours": "Mañana / Tarde según mesa",
+          "capacity": "250"
+        },
+        "experiencia_laboral": [],
+        "formacion_academica": [],
+        "cargos_partidarios": [],
+        "cargos_eleccion_popular": []
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "16002918",
+        "dni": "16002918",
+        "nombre_completo": "Roberto Helbert Sánchez Palomino",
+        "datos_personales": {
+          "fecha_nacimiento": "03/02/1969",
+          "sexo": "M",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Lima",
+            "provincia": "Huaral",
+            "distrito": "Huaral"
+          },
+          "domicilio": "Lima, Lima, Lince"
+        },
+        "antecedentes": {
+          "total": 0,
+          "penales": 0,
+          "obligaciones": 0,
+          "lista_sentencias": []
+        },
+        "ingresos": {
+          "total": 60560.00,
+          "publico": 60560.00,
+          "privado": 0.00,
+          "renta_publico": 0.00,
+          "renta_privado": 0.00,
+          "otro_ingreso_publico": 0.00,
+          "otro_ingreso_privado": 0.00
+        },
+        "bienes": {
+          "valor_total": 0.00,
+          "muebles": [],
+          "inmuebles": [],
+          "vehiculos": [],
+          "acciones": []
+        },
+        "local_votacion": {
+          "schoolName": "IE Nuestra Señora del Rosario",
+          "address": "Jr. Lima 123, Cusco, Cusco, Perú",
+          "tableNumber": "101",
+          "latitude": -13.5311,
+          "longitude": -71.9675,
+          "hours": "8:00 AM - 6:00 PM",
+          "capacity": "500"
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "2020",
+            "hasta": "2020",
+            "cargo": "Gerente de Desarrollo Social",
+            "organizacion": "Municipalidad Provincial de Huaral"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Universidad Nacional Mayor de San Marcos",
+            "carrera": "Psicología",
+            "grado": "Profesional",
+            "anio_fin": 2000
+          },
+          {
+            "institucion": "Universidad Nacional Mayor de San Marcos",
+            "carrera": "Postgrado",
+            "grado": "Egresado",
+            "anio_fin": 2017
+          }
+        ],
+        "cargos_partidarios": [
+          {
+            "desde": "2020",
+            "hasta": null,
+            "cargo": "Apoderado",
+            "organizacion": "Juntos por el Perú"
+          },
+          {
+            "desde": "2008",
+            "hasta": null,
+            "cargo": "Fundador",
+            "organizacion": "Juntos por el Perú"
+          }
+        ],
+        "cargos_eleccion_popular": []
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "06466585",
+        "dni": "06466585",
+        "nombre_completo": "Vladimir Roy Cerrón Rojas",
+        "datos_personales": {
+          "fecha_nacimiento": "16/12/1970",
+          "sexo": "M",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Junín",
+            "provincia": "Chupaca",
+            "distrito": "Chupaca"
+          },
+          "domicilio": "Junín, Huancayo, Huancayo"
+        },
+        "antecedentes": {
+          "total": 3,
+          "penales": 2,
+          "obligaciones": 0,
+          "lista_sentencias": [
+            {
+              "tipo": "Penal",
+              "caratula": "Colusión contra la administración pública",
+              "expediente": "Aeródromo Wanka",
+              "organo_judicial": "Sexto Juzgado Penal Unipersonal especializado en corrupción, Huancayo",
+              "situacion": "Sentenciado",
+              "fallo": "3 años 6 meses de prisión efectiva e inhabilitación para cargo público",
+              "fecha": "07/02/2023"
+            },
+            {
+              "tipo": "Penal",
+              "caratula": "Negociación incompatible (Caso La Oroya)",
+              "expediente": "Registro judicial La Oroya",
+              "organo_judicial": "Anticorrupción – Corte Superior Junín",
+              "situacion": "Sentenciado",
+              "fallo": "4 años de prisión suspendida + pago S/ 850,000 por reparación civil",
+              "fecha": "18/04/2021"
+            },
+            {
+              "tipo": "Administrativo / Patrimonial",
+              "caratula": "Extinción de dominio por incremento patrimonial injustificado",
+              "expediente": "Extinción Dominio Cerrón",
+              "organo_judicial": "Sala de Apelaciones Especializada en Extinción de Dominio, Lima",
+              "situacion": "Fallo confirmado",
+              "fallo": "S/1,613,512.43 a favor del Estado",
+              "fecha": "22/10/2025"
+            }
+          ]
+        },
+        "ingresos": {
+          "total": 102483.00,
+          "publico": 102483.00,
+          "privado": 0.00,
+          "renta_publico": 0.00,
+          "renta_privado": 0.00,
+          "otro_ingreso_publico": 0.00,
+          "otro_ingreso_privado": 0.00
+        },
+        "bienes": {
+          "valor_total": 314561.00,
+          "muebles": [],
+          "inmuebles": [
+            {
+              "direccion": "MZ G LOTE 08 URB LA RIVERA I, Huancayo, Junín",
+              "partida_sunarp": "02006485",
+              "tipo": "TERRENO",
+              "caracteristica": "Huancayo, Junín",
+              "autovaluo": 314561.00,
+              "valor": 314561.00,
+              "comentario": ""
+            }
+          ],
+          "vehiculos": [],
+          "acciones": []
+        },
+        "local_votacion": {
+          "schoolName": "IE César Vallejo",
+          "address": "Av. Ejército 456, Trujillo, La Libertad, Perú",
+          "tableNumber": "202",
+          "latitude": -8.1091,
+          "longitude": -79.0215,
+          "hours": "8:00 AM - 6:00 PM",
+          "capacity": "600"
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "2003",
+            "hasta": null,
+            "cargo": "Médico Neurocirujano",
+            "organizacion": "EsSalud Huancayo"
+          },
+          {
+            "desde": "2011",
+            "hasta": "2014",
+            "cargo": "Presidente Regional",
+            "organizacion": "Gobierno Regional Junín"
+          },
+          {
+            "desde": "2019",
+            "hasta": "2019",
+            "cargo": "Gobernador Regional (Suspendido)",
+            "organizacion": "Gobierno Regional Junín"
+          },
+          {
+            "desde": "2010",
+            "hasta": null,
+            "cargo": "Docente Auxiliar",
+            "organizacion": "Universidad Nacional del Centro del Perú"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Instituto Superior de Ciencias Médicas de Camagüey",
+            "carrera": "Especialista de Primer Grado en Neurocirugía",
+            "grado": "Especialista",
+            "anio_fin": 2002
+          },
+          {
+            "institucion": "Instituto Superior de Ciencias Médicas de Camagüey",
+            "carrera": "Doctor en Medicina",
+            "grado": "Doctor",
+            "anio_fin": 1997
+          },
+          {
+            "institucion": "Universidad Nacional Mayor de San Marcos",
+            "carrera": "Doctor en Medicina",
+            "grado": "Doctorado",
+            "anio_fin": 2010
+          }
+        ],
+        "cargos_partidarios": [
+          {
+            "desde": "2012",
+            "hasta": null,
+            "cargo": "Fundador",
+            "organizacion": "Partido Político Nacional Perú Libre"
+          },
+          {
+            "desde": "2019",
+            "hasta": null,
+            "cargo": "Representante Legal",
+            "organizacion": "Partido Político Nacional Perú Libre"
+          }
+        ],
+        "cargos_eleccion_popular": [
+          {
+            "desde": "2011",
+            "hasta": "2014",
+            "cargo": "Presidente Regional",
+            "organizacion": "Movimiento Político Regional Perú Libre"
+          },
+          {
+            "desde": "2019",
+            "hasta": "2022",
+            "cargo": "Gobernador Regional",
+            "organizacion": "Movimiento Político Regional Perú Libre"
+          }
+        ]
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "07246887",
+        "dni": "07246887",
+        "nombre_completo": "José León Luna Gálvez",
+        "datos_personales": {
+          "fecha_nacimiento": "17/07/1955",
+          "sexo": "M",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lima"
+          },
+          "domicilio": "Lima, Lima, Lima"
+        },
+        "antecedentes": {
+          "total": 4,
+          "penales": 2,
+          "obligaciones": 1,
+          "lista_sentencias": [
+            {
+              "tipo": "Penal / Criminal",
+              "caratula": "Organización criminal y cohecho activo específico",
+              "expediente": "Caso Podemos Perú inscripción irregular",
+              "organo_judicial": "Primera Fiscalía Supraprovincial Corporativa Especializada contra la Criminalidad Organizada",
+              "situacion": "Acusado",
+              "fallo": null,
+              "fecha": "2025-08-07"
+            },
+            {
+              "tipo": "Medida preventiva",
+              "caratula": "Arresto domiciliario",
+              "expediente": "Caso 'Los Gánsters de la Política'",
+              "organo_judicial": "Tercer Juzgado de Investigación Preparatoria Especializado en Delitos de Corrupción",
+              "situacion": "Sentencia / medida impuesta",
+              "fallo": "36 meses arresto domiciliario + reglas de conducta",
+              "fecha": "2020-12-31"
+            },
+            {
+              "tipo": "Civil / Reparación",
+              "caratula": "Reparación civil por organización criminal",
+              "expediente": "Procuraduría vs José Luna Gálvez y otros",
+              "organo_judicial": "Procuraduría Pública Especializada en Delitos de Corrupción",
+              "situacion": "Petición de reparación civil",
+              "fallo": "S/ 10,000,000 (reparación civil solicitada)",
+              "fecha": "2023-09-22"
+            },
+            {
+              "tipo": "Investigación Penal",
+              "caratula": "Inscripción irregular de partido político",
+              "expediente": "Ampliación de investigación – caso Podemos Perú",
+              "organo_judicial": "Poder Judicial / Fiscalía Criminalidad Organizada",
+              "situacion": "Investigación abierta",
+              "fallo": null,
+              "fecha": "2024-01-15"
+            }
+          ]
+        },
+        "ingresos": {
+          "total": 12428083,
+          "publico": 0,
+          "privado": 1732402,
+          "renta_publico": 0,
+          "renta_privado": 0,
+          "otro_ingreso_publico": 0,
+          "otro_ingreso_privado": 10695681
+        },
+        "bienes": {
+          "valor_total": 17435994,
+          "muebles": [],
+          "inmuebles": [
+            {
+              "direccion": "Propiedades en Lima según SUNARP",
+              "partida_sunarp": null,
+              "tipo": "Inmueble",
+              "caracteristica": null,
+              "autovaluo": 16982358,
+              "valor": 16982358,
+              "comentario": "Propiedades en Lima según SUNARP"
+            }
+          ],
+          "vehiculos": [
+            {
+              "modelo": "Camioneta / Minivan / Camión",
+              "anio": null,
+              "placa": "RIW155 / B6Z119 / ABE752 / ATA658 / ATB011 / ATB187 / ATC322 / AUQ697 / AWQ949 / AWR704 / BSX223",
+              "caracteristica": null,
+              "valor": 453636,
+              "comentario": "Vehículos declarados en SUNARP"
+            }
+          ],
+          "acciones": []
+        },
+        "local_votacion": {
+          "schoolName": "Colegio Nacional San José",
+          "address": "Av. Principal 123, Miraflores, Lima",
+          "tableNumber": "012345",
+          "latitude": -12.1203,
+          "longitude": -77.0282,
+          "hours": "8:00 AM - 6:00 PM",
+          "capacity": "350 votantes"
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "2020",
+            "hasta": null,
+            "cargo": "Asesor - Presidente del Directorio",
+            "organizacion": "Universidad Privada TELESUP SAC"
+          },
+          {
+            "desde": "2018",
+            "hasta": null,
+            "cargo": "Gerente General",
+            "organizacion": "Escuela Internacional de Posgrado SAC"
+          },
+          {
+            "desde": "2011",
+            "hasta": null,
+            "cargo": "Asesor",
+            "organizacion": "Instituto Superior Tecnológico Privado INTUR Perú"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Universidad de San Martín de Porres",
+            "carrera": "Ciencias Económicas",
+            "grado": "Bachiller",
+            "anio_fin": 2000
+          },
+          {
+            "institucion": "Universidad de San Martín de Porres",
+            "carrera": "Doctor en Educación",
+            "grado": "Doctorado",
+            "anio_fin": 2005
+          },
+          {
+            "institucion": "Universidad de San Martín de Porres",
+            "carrera": "Maestría en Economía: Comercio y Finanzas Internacionales",
+            "grado": "Maestría",
+            "anio_fin": 2004
+          },
+          {
+            "institucion": "Universidad de San Martín de Porres",
+            "carrera": "Economista",
+            "grado": "Licenciatura",
+            "anio_fin": 2000
+          }
+        ],
+        "cargos_partidarios": [],
+        "cargos_eleccion_popular": []
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "10000001",
+        "dni": "10000001",
+        "nombre_completo": "Ana María Torres Huamán",
+        "datos_personales": {
+          "fecha_nacimiento": "12/05/1985",
+          "sexo": "F",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lima"
+          },
+          "domicilio": "Lima, Lima, Lima"
+        },
+        "antecedentes": {
+          "total": 0,
+          "penales": 0,
+          "obligaciones": 0,
+          "lista_sentencias": []
+        },
+        "ingresos": {
+          "total": 75000,
+          "publico": 50000,
+          "privado": 25000,
+          "renta_publico": 0,
+          "renta_privado": 0,
+          "otro_ingreso_publico": 0,
+          "otro_ingreso_privado": 0
+        },
+        "bienes": {
+          "valor_total": 120000,
+          "muebles": [],
+          "inmuebles": [],
+          "vehiculos": [
+            {
+              "modelo": "Toyota Corolla",
+              "anio": 2018,
+              "placa": "ABC-123",
+              "caracteristica": "Sedán gris",
+              "valor": 12000,
+              "comentario": ""
+            }
+          ],
+          "acciones": []
+        },
+        "local_votacion": {
+          "schoolName": "Colegio San José",
+          "address": "Av. Larco 123, Miraflores, Lima",
+          "tableNumber": "001",
+          "latitude": -12.1223,
+          "longitude": -77.0279,
+          "hours": "8:00 AM - 5:00 PM",
+          "capacity": "300 votantes"
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "2015",
+            "hasta": null,
+            "cargo": "Gerente",
+            "organizacion": "Empresa XYZ SAC"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Universidad Nacional Mayor de San Marcos",
+            "carrera": "Administración de Empresas",
+            "grado": "Licenciatura",
+            "anio_fin": 2007
+          }
+        ],
+        "cargos_partidarios": [],
+        "cargos_eleccion_popular": []
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "10000002",
+        "dni": "10000002",
+        "nombre_completo": "Luis Alberto Chávez Paredes",
+        "datos_personales": {
+          "fecha_nacimiento": "23/11/1978",
+          "sexo": "M",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Cusco",
+            "provincia": "Cusco",
+            "distrito": "Cusco"
+          },
+          "domicilio": "Cusco, Cusco, Cusco"
+        },
+        "antecedentes": {
+          "total": 1,
+          "penales": 0,
+          "obligaciones": 1,
+          "lista_sentencias": [
+            {
+              "tipo": "Obligación Civil",
+              "caratula": "Incumplimiento de pago",
+              "expediente": "CIV-2020-001",
+              "organo_judicial": "Juzgado Civil Cusco",
+              "situacion": "Resuelto",
+              "fallo": "S/ 5,000",
+              "fecha": "2020-08-15"
+            }
+          ]
+        },
+        "ingresos": {
+          "total": 45000,
+          "publico": 0,
+          "privado": 45000,
+          "renta_publico": 0,
+          "renta_privado": 0,
+          "otro_ingreso_publico": 0,
+          "otro_ingreso_privado": 0
+        },
+        "bienes": {
+          "valor_total": 80000,
+          "muebles": [],
+          "inmuebles": [],
+          "vehiculos": [
+            {
+              "modelo": "Nissan Sentra",
+              "anio": 2016,
+              "placa": "CUS-456",
+              "caracteristica": "Sedán azul",
+              "valor": 8000,
+              "comentario": ""
+            }
+          ],
+          "acciones": []
+        },
+        "local_votacion": {
+          "schoolName": "Colegio San Antonio Abad",
+          "address": "Av. El Sol 456, Cusco, Cusco",
+          "tableNumber": "002",
+          "latitude": -13.5319,
+          "longitude": -71.9675,
+          "hours": "8:00 AM - 5:00 PM",
+          "capacity": "350 votantes"
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "2010",
+            "hasta": null,
+            "cargo": "Contador",
+            "organizacion": "Empresa Contable SAC"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Universidad Andina del Cusco",
+            "carrera": "Contabilidad",
+            "grado": "Licenciatura",
+            "anio_fin": 2003
+          }
+        ],
+        "cargos_partidarios": [],
+        "cargos_eleccion_popular": []
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "10000003",
+        "dni": "10000003",
+        "nombre_completo": "María Elena Poma Quispe",
+        "datos_personales": {
+          "fecha_nacimiento": "05/03/1990",
+          "sexo": "F",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Arequipa",
+            "provincia": "Arequipa",
+            "distrito": "Arequipa"
+          },
+          "domicilio": "Arequipa, Arequipa, Arequipa"
+        },
+        "antecedentes": {
+          "total": 0,
+          "penales": 0,
+          "obligaciones": 0,
+          "lista_sentencias": []
+        },
+        "ingresos": {
+          "total": 60000,
+          "publico": 20000,
+          "privado": 40000,
+          "renta_publico": 0,
+          "renta_privado": 0,
+          "otro_ingreso_publico": 0,
+          "otro_ingreso_privado": 0
+        },
+        "bienes": {
+          "valor_total": 150000,
+          "muebles": [],
+          "inmuebles": [],
+          "vehiculos": [
+            {
+              "modelo": "Hyundai Tucson",
+              "anio": 2017,
+              "placa": "ARE-789",
+              "caracteristica": "SUV negro",
+              "valor": 15000,
+              "comentario": ""
+            }
+          ],
+          "acciones": []
+        },
+        "local_votacion": {
+          "schoolName": "Colegio San José de Arequipa",
+          "address": "Calle Mercaderes 123, Arequipa",
+          "tableNumber": "003",
+          "latitude": -16.3989,
+          "longitude": -71.5350,
+          "hours": "8:00 AM - 5:00 PM",
+          "capacity": "300 votantes"
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "2012",
+            "hasta": null,
+            "cargo": "Gerente Comercial",
+            "organizacion": "Comercial Arequipa SAC"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Universidad Nacional de San Agustín",
+            "carrera": "Administración de Empresas",
+            "grado": "Licenciatura",
+            "anio_fin": 2012
+          }
+        ],
+        "cargos_partidarios": [],
+        "cargos_eleccion_popular": []
+      }
+    },
+    {
+      "ciudadano": {
+        "id": "10000004",
+        "dni": "10000004",
+        "nombre_completo": "José Manuel Huerta Rojas",
+        "datos_personales": {
+          "fecha_nacimiento": "15/07/1975",
+          "sexo": "M",
+          "educacion": "Universitaria completa",
+          "lugar_nacimiento": {
+            "pais": "Perú",
+            "departamento": "Piura",
+            "provincia": "Piura",
+            "distrito": "Piura"
+          },
+          "domicilio": "Piura, Piura, Piura"
+        },
+        "antecedentes": {
+          "total": 0,
+          "penales": 0,
+          "obligaciones": 0,
+          "lista_sentencias": []
+        },
+        "ingresos": {
+          "total": 55000,
+          "publico": 30000,
+          "privado": 25000,
+          "renta_publico": 0,
+          "renta_privado": 0,
+          "otro_ingreso_publico": 0,
+          "otro_ingreso_privado": 0
+        },
+        "bienes": {
+          "valor_total": 90000,
+          "muebles": [],
+          "inmuebles": [],
+          "vehiculos": [
+            {
+              "modelo": "Kia Rio",
+              "anio": 2015,
+              "placa": "PIU-321",
+              "caracteristica": "Sedán rojo",
+              "valor": 9000,
+              "comentario": ""
+            }
+          ],
+          "acciones": []
+        },
+        "local_votacion": {
+          "schoolName": "Colegio San Miguel",
+          "address": "Jr. Piura 101, Piura",
+          "tableNumber": "004",
+          "latitude": -5.1945,
+          "longitude": -80.6328,
+          "hours": "8:00 AM - 5:00 PM",
+          "capacity": "280 votantes"
+        },
+        "experiencia_laboral": [
+          {
+            "desde": "2010",
+            "hasta": null,
+            "cargo": "Director",
+            "organizacion": "Empresa Agroindustrial SAC"
+          }
+        ],
+        "formacion_academica": [
+          {
+            "institucion": "Universidad de Piura",
+            "carrera": "Administración de Empresas",
+            "grado": "Licenciatura",
+            "anio_fin": 1998
+          }
+        ],
+        "cargos_partidarios": [],
+        "cargos_eleccion_popular": []
+      }
+    }
+  ]
+}
