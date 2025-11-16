@@ -17,7 +17,7 @@ public class DataJson {
 
     public List<Ciudadano> cargarCiudadanos() {
         try {
-            ClassPathResource resource = new ClassPathResource("personas.json");
+            ClassPathResource resource = new ClassPathResource("json_ciudadanos_normFinal.json");
 
             CiudadanosWrapper wrapper = objectMapper.readValue(
                     resource.getInputStream(),
