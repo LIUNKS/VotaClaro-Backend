@@ -19,9 +19,11 @@ public class PoliticalPartyService implements CreatePoliticalPartyUseCase {
 
     @Override
     public PoliticalPartyResponse createPoliticalParty(PoliticalPartyRequest politicalPartyRequest, MultipartFile urlLogo, MultipartFile urlListMembers) throws Exception {
+
         PoliticalParty politicalParty = politicalPartyMapper.politicalPartyToPoliticalPartyRequest(politicalPartyRequest);
         politicalParty = politicalPartyRepositoryPort.save(politicalParty, urlLogo, urlListMembers);
         return politicalPartyMapper.politicalPartyToPoliticalPartyResponse(politicalParty);
+
     }
 
 }

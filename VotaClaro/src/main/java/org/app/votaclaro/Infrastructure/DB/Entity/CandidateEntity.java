@@ -20,10 +20,7 @@ public class CandidateEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "candidate_id")
     private UUID id;
-    private String fullName;
     private String dni;
-    private LocalDate birthDate;
-    private String urlCv;
 
     @ManyToOne(
             cascade = {CascadeType.REFRESH, CascadeType.MERGE}

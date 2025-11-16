@@ -23,7 +23,6 @@ public class JpaPolicyPlanRepositoryAdapter implements PolicyPlanRepositoryPort 
     private final SpringDatePolicyPlanRepository springDatePolicyPlanRepository;
     private final PoliticalPartyMapper politicalPartyMapper;
 
-
     @Override
     public PolicyPlan save(PolicyPlan policyPlan, MultipartFile urlPdf) throws Exception {
 
@@ -39,13 +38,11 @@ public class JpaPolicyPlanRepositoryAdapter implements PolicyPlanRepositoryPort 
 
         policyPlanEntity = springDatePolicyPlanRepository.save(policyPlanEntity);
 
-        PolicyPlan policyPlan1 = policyPlanMapper.policyPlanEntityToPolicyPlan(policyPlanEntity);
-
         PoliticalPartyEntity politicalParty = policyPlanEntity.getPoliticalParty();
 
         PoliticalParty politicalParty1 = politicalPartyMapper.politicalPartyEntityToPoliticalParty(politicalParty);
 
-        policyPlan1.setPoliticalParty(politicalParty1);
+        PolicyPlan policyPlan1 = new PolicyPlan(policyPlanEntity.getId(),policyPlanEntity.getUrlPdf(),politicalParty1);
 
         return policyPlan1;
     }

@@ -6,8 +6,8 @@ public class PoliticalParty {
 
     private UUID id;
     private String name;
-    private String urlLogo;
     private String ideology;
+    private String urlLogo;
     private String urlListMembers;
 
     public PoliticalParty(UUID id, String name, String urlLogo, String ideology, String urlListMembers) {
@@ -18,10 +18,6 @@ public class PoliticalParty {
         this.urlListMembers = urlListMembers;
     }
 
-    public PoliticalParty(String name, String ideology) {
-        this.name = name;
-        this.ideology = ideology;
-    }
 
     public UUID getId() {
         return id;

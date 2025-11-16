@@ -9,10 +9,11 @@ public class PolicyPlan {
     private String urlPdf;
     private PoliticalParty politicalParty;
 
-    public PolicyPlan(PoliticalParty politicalParty, String urlPdf, UUID id) {
-        this.politicalParty = politicalParty;
-        this.urlPdf = urlPdf;
+
+    public PolicyPlan(UUID id, String urlPdf, PoliticalParty politicalParty) {
         this.id = id;
+        this.urlPdf = urlPdf;
+        this.politicalParty = politicalParty;
     }
 
     public PolicyPlan(PoliticalParty politicalParty) {
