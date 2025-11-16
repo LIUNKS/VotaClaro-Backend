@@ -18,6 +18,7 @@ public class PoliticalPartyEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "political_party_id")
     private UUID id;
+    @Column(unique = true)
     private String name;
     private String urlLogo;
     private String ideology;

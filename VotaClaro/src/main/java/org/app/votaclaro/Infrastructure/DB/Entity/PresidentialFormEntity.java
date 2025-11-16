@@ -17,6 +17,14 @@ public class PresidentialFormEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "presidential_form_id")
     private UUID id;
-    private Byte count;
-    private Boolean isFull;
+    private Byte count = 0;
+    private Boolean isFull = Boolean.FALSE;
+    @OneToOne(
+            cascade = {CascadeType.REFRESH, CascadeType.MERGE}
+    )
+    @JoinColumn(
+            name = "political_party_id",
+            referencedColumnName = "political_party_id"
+    )
+    private PoliticalPartyEntity politicalPartyEntity;
 }

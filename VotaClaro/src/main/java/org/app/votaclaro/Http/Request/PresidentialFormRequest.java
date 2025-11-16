@@ -1,6 +1,7 @@
 package org.app.votaclaro.Http.Request;
 
+import java.util.UUID;
+
 public record PresidentialFormRequest(
-        Byte count,
-        Boolean isFull
+        UUID political_party_id
 ) {}

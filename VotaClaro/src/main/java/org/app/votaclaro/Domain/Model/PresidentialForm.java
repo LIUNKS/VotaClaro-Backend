@@ -7,11 +7,13 @@ public class PresidentialForm {
     private UUID id;
     private Byte count;
     private Boolean isFull;
+    private PoliticalParty politicalParty;
 
-    public PresidentialForm(UUID id, Byte count, Boolean isFull) {
+    public PresidentialForm(UUID id, Byte count, Boolean isFull, PoliticalParty politicalParty) {
         this.id = id;
         this.count = count;
         this.isFull = isFull;
+        this.politicalParty = politicalParty;
     }
 
     public UUID getId() {
@@ -36,5 +38,13 @@ public class PresidentialForm {
 
     public void setFull(Boolean full) {
         isFull = full;
+    }
+
+    public PoliticalParty getPoliticalParty() {
+        return politicalParty;
+    }
+
+    public void setPoliticalParty(PoliticalParty politicalParty) {
+        this.politicalParty = politicalParty;
     }
 }

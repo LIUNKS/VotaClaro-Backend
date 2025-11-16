@@ -26,12 +26,15 @@ public class JpaPoliticalPartyRepositoryAdapter implements PoliticalPartyReposit
     @Override
     public PoliticalParty save(PoliticalParty politicalParty, MultipartFile urlLogo, MultipartFile urlListMembers) throws Exception {
 
+        if(springDatePoliticalPartyRepository.existsPoliticalPartyEntitiesByName(politicalParty.getName())){
+            throw new RuntimeException("Ya existe un PoliticalParty con el nombre: "+politicalParty.getName());
+        }
+
         log.info("Guardando archivos de PoliticalParty en el servidor");
 
         String Logo = iUploadFilesService.handleFileUpload(urlLogo);
 
         String ListMembers = iUploadFilesService.handleFileUpload(urlListMembers);
-
 
         PoliticalPartySavePersistence politicalPartySavePersistence = politicalPartyMapper.politicalPartyToPoliticalPartySavePersistence(politicalParty);
 
@@ -54,11 +57,9 @@ public class JpaPoliticalPartyRepositoryAdapter implements PoliticalPartyReposit
 
         politicalPartyEntity = springDatePoliticalPartyRepository.save(politicalPartyEntity);
 
-
         log.info("Guardando PoliticalParty en BD: {}",politicalPartyEntity.getId());
 
         return politicalPartyMapper.politicalPartyEntityToPoliticalParty(politicalPartyEntity);
-
     }
 
     @Override

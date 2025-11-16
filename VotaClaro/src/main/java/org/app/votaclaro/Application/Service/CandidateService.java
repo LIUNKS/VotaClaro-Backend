@@ -8,8 +8,10 @@ import org.springframework.web.multipart.MultipartFile;
 
 @Service
 public class CandidateService implements CreateCandidateUseCase {
+
     @Override
     public CandidateResponse createCandidate(CandidateRequest candidateRequest, MultipartFile urlCv) {
         return null;
     }
+
 }

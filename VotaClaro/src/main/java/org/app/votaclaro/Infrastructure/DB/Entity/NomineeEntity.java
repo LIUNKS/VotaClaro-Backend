@@ -3,7 +3,6 @@ package org.app.votaclaro.Infrastructure.DB.Entity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.app.votaclaro.Enum.NomineeStatus;
 import org.app.votaclaro.Enum.PositionType;

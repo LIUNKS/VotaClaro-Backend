@@ -11,6 +11,7 @@ import org.mapstruct.Mapper;
 public interface PoliticalPartyMapper {
 
     PoliticalPartySavePersistence politicalPartyToPoliticalPartySavePersistence(PoliticalParty politicalParty);
+
     PoliticalPartyEntity politicalPartySavePersistenceToPoliticalPartyEntity(PoliticalPartySavePersistence politicalPartySavePersistence); //No funciona
 
     PoliticalParty politicalPartyToPoliticalPartyRequest(PoliticalPartyRequest politicalPartyRequest);

@@ -6,4 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.UUID;
 
 public interface SpringDatePoliticalPartyRepository extends JpaRepository<PoliticalPartyEntity, UUID> {
+    boolean existsPoliticalPartyEntitiesByName(String name);
 }
