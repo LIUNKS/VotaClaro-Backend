@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class CiudadanoService {
+
     private final List<Ciudadano> ciudadanos;
 
     public CiudadanoService(DataJson dataJson){
@@ -25,6 +26,7 @@ public class CiudadanoService {
                 .findFirst()
                 .orElse(null);
     }
+
 
     public List<Ciudadano> findByNombre(String nombre){
         return ciudadanos.stream()

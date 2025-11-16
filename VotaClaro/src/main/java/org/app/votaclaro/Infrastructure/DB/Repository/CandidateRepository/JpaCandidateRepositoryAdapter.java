@@ -7,6 +7,7 @@ import org.app.votaclaro.Application.Service.PresidentialFormService;
 import org.app.votaclaro.Application.Service.ServiceFile.IUploadFilesService;
 import org.app.votaclaro.Domain.Model.Candidate;
 import org.app.votaclaro.Domain.Model.PoliticalParty;
+import org.app.votaclaro.Dto.CandidateUrlImg;
 import org.app.votaclaro.Infrastructure.DB.Entity.CandidateEntity;
 import org.app.votaclaro.Infrastructure.DB.Entity.PoliticalPartyEntity;
 import org.app.votaclaro.Infrastructure.DB.Entity.PresidentialFormEntity;
@@ -16,7 +17,10 @@ import org.app.votaclaro.Utils.ExtractionJson.CiudadanoService;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 @Repository
 @RequiredArgsConstructor
@@ -26,17 +30,9 @@ public class JpaCandidateRepositoryAdapter implements CandidateRepositoryPort {
     private final SpringDateCandidateRepository springDateCandidateRepository;
     private final IUploadFilesService iUploadFilesService;
     private final PoliticalPartyMapper politicalPartyMapper;
-    private final CiudadanoService ciudadanoService;
-
-
 
     @Override
     public Candidate save(Candidate candidate, MultipartFile urlImgPerson) throws Exception {
-
-        if( ciudadanoService.findByDniExists(candidate.getDni()) == false){
-            throw new RuntimeException("Ciudadano no encontrado");
-        }
-
         if(springDateCandidateRepository.existsByDni(candidate.getDni())){
             throw new RuntimeException("El dni del candidate ya existe");
         }
@@ -90,4 +86,12 @@ public class JpaCandidateRepositoryAdapter implements CandidateRepositoryPort {
         return CandidateMapperAux.candidateEntityToCandidatoForNull(candidate);
     }
 
+    @Override
+    public List<CandidateUrlImg> listUrlCandidates() {
+        List<CandidateEntity>candidateEntities = springDateCandidateRepository.findAll();
+        List<CandidateUrlImg> candidateUrlImgs = candidateEntities.stream()
+                .map(candidateEntity -> new CandidateUrlImg(candidateEntity.getDni(),candidateEntity.getUrlImgPerson()))
+                .collect(Collectors.toList());
+        return candidateUrlImgs;
+    }
 }

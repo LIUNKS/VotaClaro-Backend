@@ -12,6 +12,7 @@ import java.util.List;
 public class Ciudadano {
     private String id;
     private String dni;
+    private String url_img;
     private String nombre_completo;
     private DatosPersonales datos_personales;
     private Antecedentes antecedentes;
