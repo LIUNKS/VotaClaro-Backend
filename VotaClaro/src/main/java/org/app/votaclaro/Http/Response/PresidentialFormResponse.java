@@ -4,7 +4,7 @@ import java.util.UUID;
 
 public record PresidentialFormResponse(
         UUID id,
-        Byte count,
+        Integer count,
         Boolean isFull,
         UUID political_party_id
 ) {}

@@ -4,16 +4,19 @@ package org.app.votaclaro.Domain.Model;
 import java.util.UUID;
 
 public class Candidate {
+
     private UUID id;
     private String dni;
     private PoliticalParty politicalParty;
     private PresidentialForm presidentialForm;
+    private String urlImgPerson;
 
-    public Candidate(UUID id, String dni, PoliticalParty politicalParty, PresidentialForm presidentialForm) {
+    public Candidate(UUID id, String dni, PoliticalParty politicalParty, PresidentialForm presidentialForm, String urlImgPerson) {
         this.id = id;
         this.dni = dni;
         this.politicalParty = politicalParty;
         this.presidentialForm = presidentialForm;
+        this.urlImgPerson = urlImgPerson;
     }
 
     public UUID getId() {
@@ -46,5 +49,13 @@ public class Candidate {
 
     public void setPresidentialForm(PresidentialForm presidentialForm) {
         this.presidentialForm = presidentialForm;
+    }
+
+    public String getUrlImgPerson() {
+        return urlImgPerson;
+    }
+
+    public void setUrlImgPerson(String urlImgPerson) {
+        this.urlImgPerson = urlImgPerson;
     }
 }

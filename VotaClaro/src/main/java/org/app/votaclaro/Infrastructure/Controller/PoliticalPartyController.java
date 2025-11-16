@@ -21,7 +21,7 @@ public class PoliticalPartyController {
 
     private final PoliticalPartyService politicalPartyService;
 
-    @PostMapping()
+    @PostMapping("/add")
     public ResponseEntity<SuccessMessage<PoliticalPartyResponse>> createPoliticalParty(
             @RequestPart("politicalPartyRequest") PoliticalPartyRequest politicalPartyRequest,
             @RequestPart("urlLogo") MultipartFile urlLogo,

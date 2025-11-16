@@ -18,7 +18,7 @@ public class ElectionEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "election_id")
     private UUID id;
-    private LocalDate electionDate;
+    private String electionDate;
     @ManyToOne(
             cascade = {CascadeType.REFRESH, CascadeType.MERGE}
     )
