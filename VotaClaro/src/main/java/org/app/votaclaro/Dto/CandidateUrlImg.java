@@ -4,7 +4,6 @@ import org.app.votaclaro.Enum.PositionType;
 
 public record CandidateUrlImg(
         String dni,
-        String img,
-        PositionType positionType
+        String img
 ) {
 }

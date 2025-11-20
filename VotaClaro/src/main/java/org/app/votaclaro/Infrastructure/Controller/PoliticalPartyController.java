@@ -54,20 +54,4 @@ public class PoliticalPartyController {
     }
 
 
-    /**
-     *     @PostMapping
-     *     public ResponseEntity<SuccessMessage<MovieResponse>> EndPointSave(
-     *             @RequestPart MovieRequest movieRequest,
-     *             @RequestPart MultipartFile urlImgFile
-     *             ) throws Exception {
-     *         MovieResponse movieResponse = createMovieUseCase.createMovie(movieRequest,urlImgFile);
-     *         SuccessMessage<MovieResponse>successMessage=SuccessMessage.<MovieResponse>builder()
-     *                 .statusCode(HttpStatus.CREATED.value())
-     *                 .message("Se guardo correctamente el movie")
-     *                 .Body(movieResponse)
-     *                 .build();
-     *         return new ResponseEntity<>(successMessage,HttpStatus.CREATED);
-     *     }
-     */
-
 }
